@@ -1,8 +1,21 @@
 import { defineConfig } from 'vitepress';
+import path from 'path';
+import fs from 'fs';
 
 const nav = [
   { text: 'Hello world', link: 'notes/root.md' }
 ];
+
+
+
+
+// function filterFields(item) {
+//   return {
+//     title: item.data.title,
+//     desc: item.data.desc,
+//     is_blog_page: item.data.is_blog_page
+//   };
+// }
 
 export default defineConfig({
   title: "eniblog",
