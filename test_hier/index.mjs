@@ -7,31 +7,36 @@ delete notes.root;
 
 fs.writeFileSync('test_hier/flatStructure.json', JSON.stringify(notes, null, 2));
 
-const result = {
-  nav: [],
-  side: {}
-};
-
 const keys = Object.keys(notes);
 const firstLevelKeys = keys.filter(x => x.indexOf('.') === -1);
 
+const menu = {
+  nav: [],
+  side: {}
+};
+const sidebarsKeys = [];
+
 firstLevelKeys.forEach(key => {
-  result.nav.push(doRecursive(key));
+  menu.nav.push(doRecursive(key));
 });
 
-fs.writeFileSync('test_hier/menu.json', JSON.stringify(result, null, 2));
+console.log(sidebarsKeys);
+fs.writeFileSync('test_hier/menu.json', JSON.stringify(menu, null, 2));
 
 function doRecursive(keyFather) {
-  const result = {
-    text: notes[keyFather].data.title,
-    items: []
-  };
-
+  const noteData = notes[keyFather].data;
   const sonsKeys = getSonsKeys(keyFather);
+  const result = { text: noteData.title };
 
-  sonsKeys.forEach(keySon => {
-    result.items.push(doRecursive(keySon));
-  });
+  if (noteData.side) {
+    result.link = `notes/${sonsKeys[0]}`; //link alla prima nota della sidebar (rivedere l'ordinamento, forse impostazione dendron frontmatter)
+    sidebarsKeys.push(keyFather); //dopo riparto da queste per generare tutte le sidebar
+  } else {
+    result.items = [];
+    sonsKeys.forEach(keySon => {
+      result.items.push(doRecursive(keySon));
+    });
+  }
 
   return result;
 }

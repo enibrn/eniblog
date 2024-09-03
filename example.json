@@ -1159,9 +1159,9 @@
         "desc": "",
         "updated": 1725202091203,
         "created": 1725201959055,
-        "is_blog_page": true,
+        "side": true,
         "custom": {
-          "is_blog_page": true
+          "side": true
         },
         "fname": "brew.hots",
         "type": "note",

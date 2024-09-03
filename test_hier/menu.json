@@ -8,97 +8,13 @@
           "items": [
             {
               "text": "2016",
-              "items": [
-                {
-                  "text": "Blue Marble",
-                  "items": []
-                },
-                {
-                  "text": "Ecstasy Of Gold",
-                  "items": []
-                },
-                {
-                  "text": "Fen'Harel",
-                  "items": []
-                },
-                {
-                  "text": "Haven",
-                  "items": []
-                },
-                {
-                  "text": "Heisenberg",
-                  "items": []
-                },
-                {
-                  "text": "Montblanc",
-                  "items": []
-                },
-                {
-                  "text": "Mr Robot",
-                  "items": []
-                },
-                {
-                  "text": "Newton",
-                  "items": []
-                },
-                {
-                  "text": "Pale Blue Dot",
-                  "items": []
-                },
-                {
-                  "text": "Solar Eclipse",
-                  "items": []
-                },
-                {
-                  "text": "The Son Of Mars",
-                  "items": []
-                },
-                {
-                  "text": "Zirael",
-                  "items": []
-                }
-              ]
+              "link": "notes/brew.brews.2016.blue-marble"
             }
           ]
         },
         {
           "text": "Lato caldo",
-          "items": [
-            {
-              "text": "Impianti Ryan Biller",
-              "items": [
-                {
-                  "text": "Tre Tini",
-                  "items": [
-                    {
-                      "text": "Mark 2",
-                      "items": []
-                    },
-                    {
-                      "text": "Mark 3",
-                      "items": []
-                    },
-                    {
-                      "text": "Mark 4",
-                      "items": []
-                    },
-                    {
-                      "text": "Mark 5",
-                      "items": []
-                    },
-                    {
-                      "text": "Tre Tini Mark 1",
-                      "items": []
-                    }
-                  ]
-                },
-                {
-                  "text": "Biab",
-                  "items": []
-                }
-              ]
-            }
-          ]
+          "link": "notes/brew.hots.rb-set"
         }
       ]
     }

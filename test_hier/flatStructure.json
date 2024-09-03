@@ -1014,11 +1014,11 @@
       "id": "wb42quhzzcrne7yaeltwz9d",
       "title": "2016",
       "desc": "",
-      "updated": 1725203549632,
+      "updated": 1725398019251,
       "created": 1725201716168,
-      "is_blog_page": true,
+      "side": true,
       "custom": {
-        "is_blog_page": true
+        "side": true
       },
       "fname": "brew.brews.2016",
       "type": "note",
@@ -1027,25 +1027,25 @@
         "selfContained": true,
         "name": "eniblog"
       },
-      "contentHash": "9f67855c9d119aa2eb5de77881d55b03",
+      "contentHash": "72b36fab1227c47cdc6c85d7be8268ab",
       "links": [],
       "anchors": {},
       "children": [],
       "parent": null,
       "data": {}
     },
-    "hash": "9f67855c9d119aa2eb5de77881d55b03"
+    "hash": "72b36fab1227c47cdc6c85d7be8268ab"
   },
   "brew.hots": {
     "data": {
       "id": "g01q4zisccctzuzgra84ofd",
       "title": "Lato caldo",
       "desc": "",
-      "updated": 1725203549634,
+      "updated": 1725398019254,
       "created": 1725201959055,
-      "is_blog_page": true,
+      "side": true,
       "custom": {
-        "is_blog_page": true
+        "side": true
       },
       "fname": "brew.hots",
       "type": "note",
@@ -1054,14 +1054,14 @@
         "selfContained": true,
         "name": "eniblog"
       },
-      "contentHash": "d45fdc2308d2d541230f1bae29c5c695",
+      "contentHash": "bd23b41a857871ee0d35505407dc57db",
       "links": [],
       "anchors": {},
       "children": [],
       "parent": null,
       "data": {}
     },
-    "hash": "d45fdc2308d2d541230f1bae29c5c695"
+    "hash": "bd23b41a857871ee0d35505407dc57db"
   },
   "brew.hots.rb-set.3v.mk1": {
     "data": {
