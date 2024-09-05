@@ -14,40 +14,68 @@ const menu = {
   nav: [],
   side: {}
 };
-const sidebarsKeys = [];
+
+const sideLinks = {};
 
 firstLevelKeys.forEach(key => {
-  menu.nav.push(doRecursive(key));
+  menu.nav.push(buildRecursiveNav(key));
 });
 
-console.log(sidebarsKeys);
+console.log(sideLinks);
 fs.writeFileSync('test_hier/menu.json', JSON.stringify(menu, null, 2));
 
-function doRecursive(keyFather) {
-  const noteData = notes[keyFather].data;
-  const sonsKeys = getSonsKeys(keyFather);
+function buildRecursiveNav(key) {
+  const noteData = notes[key].data;
+  const sonsKeys = getSonsKeys(key);
   const result = { text: noteData.title };
 
   if (noteData.side) {
-    result.link = `notes/${sonsKeys[0]}`; //link alla prima nota della sidebar (rivedere l'ordinamento, forse impostazione dendron frontmatter)
-    sidebarsKeys.push(keyFather); //dopo riparto da queste per generare tutte le sidebar
+    const sidebarItems = [];
+    sonsKeys.forEach(keySon => {
+      sidebarItems.push(buildRecursiveSide(keySon, key));
+    });
+    const sideLink = sideLinks[key];
+    
+    //menu.side[sideLink] = sidebarItems;
+    menu.side[`notes/${key}`] = sidebarItems;
+
+    result.link = sideLink;
   } else {
     result.items = [];
     sonsKeys.forEach(keySon => {
-      result.items.push(doRecursive(keySon));
+      result.items.push(buildRecursiveNav(keySon));
     });
   }
 
   return result;
 }
 
-function getSonsKeys(keyFather) {
+function getSonsKeys(key) {
   return keys.filter(item => {
-    const regex = new RegExp(`^${keyFather}\\.([^\\.]+)$`);
+    const regex = new RegExp(`^${key}\\.([^\\.]+)$`);
     return regex.test(item);
   });
 }
 
+function buildRecursiveSide(key, navKey) {
+  const noteData = notes[key].data; 
+  const sonsKeys = getSonsKeys(key);
+  const result = { text: noteData.title };
 
-// const parts = key.split('.');
-// const data = notes.notes[key].data;
+  if (sonsKeys.length == 0) {
+    result.link = `notes/${key}`;
+
+    //if linkToFirstNote is present it will set the link of the sidebar to the current note only if not exist
+    // i.e. only on the first leaf note, otherwise the link will be set to the last leaf note processed
+    if (!noteData.linkToFirstNote || !sideLinks[navKey])
+      sideLinks[navKey] = result.link;
+
+  } else {
+    result.items = [];
+    sonsKeys.forEach(keySon => {
+      result.items.push(buildRecursiveSide(keySon, navKey));
+    });
+  }
+
+  return result;
+}
