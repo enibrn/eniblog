@@ -8,13 +8,13 @@
           "items": [
             {
               "text": "2016",
-              "link": "notes/brew.brews.2016.zirael"
+              "link": "brew.brews.2016.zirael"
             }
           ]
         },
         {
           "text": "Lato caldo",
-          "link": "notes/brew.hots.rb-set.biab"
+          "link": "brew.hots.rb-set.biab"
         }
       ]
     }
@@ -23,54 +23,54 @@
     "brew.brews.2016": [
       {
         "text": "Blue Marble",
-        "link": "notes/brew.brews.2016.blue-marble"
+        "link": "brew.brews.2016.blue-marble"
       },
       {
         "text": "Ecstasy Of Gold",
-        "link": "notes/brew.brews.2016.ecstasy-of-gold"
+        "link": "brew.brews.2016.ecstasy-of-gold"
       },
       {
         "text": "Fen'Harel",
-        "link": "notes/brew.brews.2016.fen-harel"
+        "link": "brew.brews.2016.fen-harel"
       },
       {
         "text": "Haven",
-        "link": "notes/brew.brews.2016.haven"
+        "link": "brew.brews.2016.haven"
       },
       {
         "text": "Heisenberg",
-        "link": "notes/brew.brews.2016.heisenberg"
+        "link": "brew.brews.2016.heisenberg"
       },
       {
         "text": "Montblanc",
-        "link": "notes/brew.brews.2016.montblanc"
+        "link": "brew.brews.2016.montblanc"
       },
       {
         "text": "Mr Robot",
-        "link": "notes/brew.brews.2016.mr-robot"
+        "link": "brew.brews.2016.mr-robot"
       },
       {
         "text": "Newton",
-        "link": "notes/brew.brews.2016.newton"
+        "link": "brew.brews.2016.newton"
       },
       {
         "text": "Pale Blue Dot",
-        "link": "notes/brew.brews.2016.pale-blue-dot"
+        "link": "brew.brews.2016.pale-blue-dot"
       },
       {
         "text": "Solar Eclipse",
-        "link": "notes/brew.brews.2016.solar-eclipse"
+        "link": "brew.brews.2016.solar-eclipse"
       },
       {
         "text": "The Son Of Mars",
-        "link": "notes/brew.brews.2016.son-of-mars"
+        "link": "brew.brews.2016.son-of-mars"
       },
       {
         "text": "Zirael",
-        "link": "notes/brew.brews.2016.zirael"
+        "link": "brew.brews.2016.zirael"
       }
     ],
-    "notes/brew.hots": [
+    "brew.hots": [
       {
         "text": "Impianti Ryan Biller",
         "items": [
@@ -79,29 +79,29 @@
             "items": [
               {
                 "text": "Mark 2",
-                "link": "notes/brew.hots.rb-set.3v.mk2"
+                "link": "brew.hots.rb-set.3v.mk2"
               },
               {
                 "text": "Mark 3",
-                "link": "notes/brew.hots.rb-set.3v.mk3"
+                "link": "brew.hots.rb-set.3v.mk3"
               },
               {
                 "text": "Mark 4",
-                "link": "notes/brew.hots.rb-set.3v.mk4"
+                "link": "brew.hots.rb-set.3v.mk4"
               },
               {
                 "text": "Mark 5",
-                "link": "notes/brew.hots.rb-set.3v.mk5"
+                "link": "brew.hots.rb-set.3v.mk5"
               },
               {
                 "text": "Tre Tini Mark 1",
-                "link": "notes/brew.hots.rb-set.3v.mk1"
+                "link": "brew.hots.rb-set.3v.mk1"
               }
             ]
           },
           {
             "text": "Biab",
-            "link": "notes/brew.hots.rb-set.biab"
+            "link": "brew.hots.rb-set.biab"
           }
         ]
       }

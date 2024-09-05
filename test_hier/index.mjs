@@ -37,7 +37,7 @@ function buildRecursiveNav(key) {
     const sideLink = sideLinks[key];
     
     //menu.side[sideLink] = sidebarItems;
-    menu.side[`notes/${key}`] = sidebarItems;
+    menu.side[key] = sidebarItems;
 
     result.link = sideLink;
   } else {
@@ -63,7 +63,7 @@ function buildRecursiveSide(key, navKey) {
   const result = { text: noteData.title };
 
   if (sonsKeys.length == 0) {
-    result.link = `notes/${key}`;
+    result.link = key;
 
     //if linkToFirstNote is present it will set the link of the sidebar to the current note only if not exist
     // i.e. only on the first leaf note, otherwise the link will be set to the last leaf note processed
