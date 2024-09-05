@@ -13,7 +13,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/AndreaBinelli/eniblog' }
     ],
     nav: menu.nav,
-    sidebar: menu.side
+    sidebar: menu.sidebar
   },
   rewrites: {
     'notes/:note': ':note'

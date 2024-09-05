@@ -1,5 +1,4 @@
 
-import path from 'path';
 import fs from 'fs';
 
 const notes = JSON.parse(fs.readFileSync('notes/.dendron.cache.json', 'utf-8')).notes;
@@ -12,16 +11,16 @@ const firstLevelKeys = keys.filter(x => x.indexOf('.') === -1);
 
 const menu = {
   nav: [],
-  side: {}
+  sidebar: {}
 };
 
-const sideLinks = {};
+const sidebarLeafLinks = {};
 
 firstLevelKeys.forEach(key => {
   menu.nav.push(buildRecursiveNav(key));
 });
 
-console.log(sideLinks);
+console.log(sidebarLeafLinks);
 fs.writeFileSync('test_hier/menu.json', JSON.stringify(menu, null, 2));
 
 function buildRecursiveNav(key) {
@@ -32,14 +31,14 @@ function buildRecursiveNav(key) {
   if (noteData.side) {
     const sidebarItems = [];
     sonsKeys.forEach(keySon => {
-      sidebarItems.push(buildRecursiveSide(keySon, key));
+      sidebarItems.push(buildRecursiveSidebar(keySon, key));
     });
-    const sideLink = sideLinks[key];
+    const sidebarLeafLink = sidebarLeafLinks[key];
     
-    //menu.side[sideLink] = sidebarItems;
-    menu.side[key] = sidebarItems;
+    //menu.side[sidebarLeafLink] = sidebarItems;
+    menu.sidebar[key] = sidebarItems;
 
-    result.link = sideLink;
+    result.link = sidebarLeafLink;
   } else {
     result.items = [];
     sonsKeys.forEach(keySon => {
@@ -57,7 +56,7 @@ function getSonsKeys(key) {
   });
 }
 
-function buildRecursiveSide(key, navKey) {
+function buildRecursiveSidebar(key, navKey) {
   const noteData = notes[key].data; 
   const sonsKeys = getSonsKeys(key);
   const result = { text: noteData.title };
@@ -67,13 +66,13 @@ function buildRecursiveSide(key, navKey) {
 
     //if linkToFirstNote is present it will set the link of the sidebar to the current note only if not exist
     // i.e. only on the first leaf note, otherwise the link will be set to the last leaf note processed
-    if (!noteData.linkToFirstNote || !sideLinks[navKey])
-      sideLinks[navKey] = result.link;
+    if (!noteData.linkToFirstNote || !sidebarLeafLinks[navKey])
+      sidebarLeafLinks[navKey] = result.link;
 
   } else {
     result.items = [];
     sonsKeys.forEach(keySon => {
-      result.items.push(buildRecursiveSide(keySon, navKey));
+      result.items.push(buildRecursiveSidebar(keySon, navKey));
     });
   }
 
