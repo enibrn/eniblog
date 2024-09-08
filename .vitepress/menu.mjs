@@ -4,6 +4,7 @@ export class Menu {
   // public props
   nav = [];
   sidebar = {};
+  linksVocabulary = {};
 
   // private props
   #items;
@@ -74,6 +75,7 @@ export class Menu {
 
     if (childItems.length == 0) {
       result.link = item.key;
+      this.linksVocabulary[item.key] = item.title;
 
       //if linkToFirstNote is present it will set the link of the sidebar to the current note only if not exist
       // i.e. only on the first leaf note, otherwise the link will be set to the last leaf note processed
