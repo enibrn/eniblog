@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 import path from 'path';
 import fs from 'fs';
 
-const menu = JSON.parse(fs.readFileSync('test_hier/menu.json', 'utf-8'));
+const menu = JSON.parse(fs.readFileSync('poc/test_hier_ordered/menu.json', 'utf-8'));
 
 export default defineConfig({
   title: "eniblog",

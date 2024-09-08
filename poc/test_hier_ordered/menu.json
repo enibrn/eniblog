@@ -8,7 +8,7 @@
           "items": [
             {
               "text": "2016",
-              "link": "brew.brews.2016.zirael"
+              "link": "brew.brews.2016.fen-harel"
             }
           ]
         },
@@ -22,20 +22,8 @@
   "sidebar": {
     "brew.brews.2016": [
       {
-        "text": "Blue Marble",
-        "link": "brew.brews.2016.blue-marble"
-      },
-      {
         "text": "Ecstasy Of Gold",
         "link": "brew.brews.2016.ecstasy-of-gold"
-      },
-      {
-        "text": "Fen'Harel",
-        "link": "brew.brews.2016.fen-harel"
-      },
-      {
-        "text": "Haven",
-        "link": "brew.brews.2016.haven"
       },
       {
         "text": "Heisenberg",
@@ -46,28 +34,40 @@
         "link": "brew.brews.2016.montblanc"
       },
       {
-        "text": "Mr Robot",
-        "link": "brew.brews.2016.mr-robot"
+        "text": "Solar Eclipse",
+        "link": "brew.brews.2016.solar-eclipse"
       },
       {
-        "text": "Newton",
-        "link": "brew.brews.2016.newton"
+        "text": "Mr Robot",
+        "link": "brew.brews.2016.mr-robot"
       },
       {
         "text": "Pale Blue Dot",
         "link": "brew.brews.2016.pale-blue-dot"
       },
       {
-        "text": "Solar Eclipse",
-        "link": "brew.brews.2016.solar-eclipse"
+        "text": "Newton",
+        "link": "brew.brews.2016.newton"
       },
       {
         "text": "The Son Of Mars",
         "link": "brew.brews.2016.son-of-mars"
       },
       {
+        "text": "Blue Marble",
+        "link": "brew.brews.2016.blue-marble"
+      },
+      {
+        "text": "Haven",
+        "link": "brew.brews.2016.haven"
+      },
+      {
         "text": "Zirael",
         "link": "brew.brews.2016.zirael"
+      },
+      {
+        "text": "Fen'Harel",
+        "link": "brew.brews.2016.fen-harel"
       }
     ],
     "brew.hots": [
@@ -77,6 +77,10 @@
           {
             "text": "Tre Tini",
             "items": [
+              {
+                "text": "Tre Tini Mark 1",
+                "link": "brew.hots.rb-set.3v.mk1"
+              },
               {
                 "text": "Mark 2",
                 "link": "brew.hots.rb-set.3v.mk2"
@@ -92,10 +96,6 @@
               {
                 "text": "Mark 5",
                 "link": "brew.hots.rb-set.3v.mk5"
-              },
-              {
-                "text": "Tre Tini Mark 1",
-                "link": "brew.hots.rb-set.3v.mk1"
               }
             ]
           },

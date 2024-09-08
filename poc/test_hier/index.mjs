@@ -4,7 +4,7 @@ import fs from 'fs';
 const notes = JSON.parse(fs.readFileSync('notes/.dendron.cache.json', 'utf-8')).notes;
 delete notes.root;
 
-fs.writeFileSync('test_hier/flatStructure.json', JSON.stringify(notes, null, 2));
+fs.writeFileSync('poc/test_hier/flatStructure.json', JSON.stringify(notes, null, 2));
 
 const keys = Object.keys(notes);
 const firstLevelKeys = keys.filter(x => x.indexOf('.') === -1);
