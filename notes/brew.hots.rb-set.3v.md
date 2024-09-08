@@ -2,8 +2,9 @@
 id: vn2s5wrtsobvmpu83shscpp
 title: Tre Tini
 desc: ''
-updated: 1688561458493
+updated: 1725813882339
 created: 1688561390665
+nav_order: 1
 ---
 In questa sezione parlerò delle varie varianti dell'impianto creato insieme agli ex soci del gruppo brassicolo Ryan Biller nel 2016 e 2017. A quei tempi il tipo d'impianto che andava per la maggiore era quello a gas, anche per via della semplicità di costruzione.
 

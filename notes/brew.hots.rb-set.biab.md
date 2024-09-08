@@ -2,8 +2,9 @@
 id: f3qfugjo75q3q9s4s7ap8im
 title: Biab
 desc: ''
-updated: 1688563902188
+updated: 1725813791309
 created: 1688563824750
+nav_order: 2
 ---
 Con l'abbandono di un socio nel 2017 decidemmo di semplificare l'impianto per produrre qualche litro in meno. Nacque così un impianto costola del tre tini composto da una pentola da 35 litri con la sacca da biab e un fornellone.
 

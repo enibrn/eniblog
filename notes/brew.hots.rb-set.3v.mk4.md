@@ -2,8 +2,9 @@
 id: 5l5ke12x71j8bapgxvf73az
 title: Mark 4
 desc: ''
-updated: 1688563683529
+updated: 1725813791315
 created: 1688563656604
+nav_order: 4
 ---
 Continuo a parlare dell'evoluzione del nostro impianto a tre tini che venne aggiornato alla fine 2016 con una nuova pentola inox da 50 litri per la bollitura. L'impianto venne usato nei primi e negli ultimi mesi del 2017.
 

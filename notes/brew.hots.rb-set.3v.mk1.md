@@ -1,11 +1,12 @@
 ---
 id: 9nrn3is92nyte41ihiq29zz
-title: Tre Tini Mark 1
+title: Mark 1
 desc: ''
-updated: 1689514778434
+updated: 1725813791311
 created: 1688561390654
+nav_order: 1
 ---
-La prima versione venne utilizzata per la cotta del 02/04/2016 della [[doc.brew.brews.2016.ecstasy-of-gold]].
+La prima versione venne utilizzata per la cotta del 02/04/2016 della [[brew.brews.2016.ecstasy-of-gold]].
 
 Consisteva in due pentole in acciaio inox da 35 litri forate con rubinetto e una pentola di dimensioni più piccole, sempre inox,  sui 12-13 litri da utilizzare per lo sparge.
 
