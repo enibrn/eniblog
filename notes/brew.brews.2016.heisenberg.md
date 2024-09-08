@@ -2,8 +2,9 @@
 id: 2me8fo1f9th6iziw3no33m0
 title: Heisenberg
 desc: ''
-updated: 1712783611115
+updated: 1725723180796
 created: 1688744651984
+nav_order: 2
 ---
 Continuamo con lo storico delle birre prodotte. Essendo il primo post di una ricetta ne approfitterò per introdurre un nuovo layout che cercherò di migliorare nei prossimi post di questo genere. Questa è stata la nostra prima e unica weisse, all'epoca il risultato ci sembrò stupefacente e ci diede lo slancio in questo hobby.
 

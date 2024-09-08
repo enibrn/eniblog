@@ -2,8 +2,9 @@
 id: 6rfjw9hronyswc203e9in6a
 title: Pale Blue Dot
 desc: ''
-updated: 1712783620786
+updated: 1725723300354
 created: 1688744651985
+nav_order: 6
 ---
 Birra in stile American Pale Ale, prodotta il 7 agosto 2016.
 

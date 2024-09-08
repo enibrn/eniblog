@@ -2,8 +2,9 @@
 id: s1ozeft08mjsh9oe49898uz
 title: Montblanc
 desc: ''
-updated: 1712783193926
+updated: 1725723198508
 created: 1688744651984
+nav_order: 3
 ---
 Birra di frumento stile blanche prodotta il 24 aprile 2016 e imbottigliata l'8 maggio dopo un travaso.
 

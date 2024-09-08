@@ -2,10 +2,11 @@
 id: h8kcr6wybrl8qux0s1pe6h6
 title: Solar Eclipse
 desc: ''
-updated: 1712783232680
+updated: 1725723209668
 created: 1688744651984
+nav_order: 4
 ---
-Birra in stile chocolate stout prodotta il 15 luglio 2016 e imbottigliata il 6 luglio. Più precisamente si tratta di una ricetta irish stout a cui è stato aggiunto un infuso di fave di cacao sotto spirito dopo il travaso.
+Birra in stile chocolate stout prodotta il 15 luglio 2016 e imbottigliata il 6 agosto. Più precisamente si tratta di una ricetta irish stout a cui è stato aggiunto un infuso di fave di cacao sotto spirito dopo il travaso.
 
 ### Fermentabili
 
