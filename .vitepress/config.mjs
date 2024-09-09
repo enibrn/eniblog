@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress';
-import { Menu } from './menu.mjs'
+import { DataParser } from './menu.mjs'
 import markdownItWikilinksFn from "markdown-it-wikilinks";
 
-const menu = new Menu();
+const menu = new DataParser();
 
 export default defineConfig({
   title: "eniblog",
