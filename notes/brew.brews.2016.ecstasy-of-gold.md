@@ -2,11 +2,13 @@
 id: qndaxz0p05fi6p147gc6klr
 title: Ecstasy Of Gold
 desc: ''
-updated: 1725722931744
+updated: 1725997330889
 created: 1688744651981
 nav_order: 1
 ---
-Nel 2016 ho cominciato a produrre birre insieme a due amici con il marchio Ryan Biller.  
+Nel 2016 ho cominciato a produrre birre insieme a due amici con il marchio Ryan Biller.
+
+---
 Dopo la prima birra da kit luppolato cominciammo subito con l'all grain con un impianto a tre tini alimentato a gas (descritto in un post dedicato).  
 Le prime cotte ci vennero bene per gli standard dell'epoca e ci diedero slancio nella nostra produzione. Qualche problemino però cominciò a spuntare nella seconda metà dell'anno.
 

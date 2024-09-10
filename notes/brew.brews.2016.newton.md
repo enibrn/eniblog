@@ -2,11 +2,15 @@
 id: dh1tffuko3w3ow1w6ztl7d4
 title: Newton
 desc: ''
-updated: 1725723307117
+updated: 1725997816324
 created: 1688744651985
 nav_order: 7
 ---
-Birra di natale prodotta il 16 agosto 2016. Si trattava di una classica birra di natale, piuttosto alcolica e strutturata. Color ambrato scuro con riflessi rubino. L'ultima bottiglia, bevuta a ferragosto 2018 sembrava un panettone liquido.
+Birra di natale prodotta il 16 agosto 2016.
+
+---
+
+Si trattava di una classica birra di natale, piuttosto alcolica e strutturata. Color ambrato scuro con riflessi rubino. L'ultima bottiglia, bevuta a ferragosto 2018 sembrava un panettone liquido.
 
 ### Fermentabili
 

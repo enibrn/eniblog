@@ -146,11 +146,15 @@ export class DataParser {
   }
 
   static #getExcerpt(content) {
-    const maxLen = 100;
+    return truncate(content, 100, true);
 
-    return content.length > maxLen
-      ? content.substring(0, 100) + "..."
-      : content;
+    function truncate( str, n, useWordBoundary ){
+      if (str.length <= n) { return str; }
+      const subString = str.slice(0, n-1); // the original check
+      return (useWordBoundary 
+        ? subString.slice(0, subString.lastIndexOf(" ")) 
+        : subString) + "...";//"&hellip;";
+    };
   }
 
   //similar to logic in ImageManager of dendron-move-images
