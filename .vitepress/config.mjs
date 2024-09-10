@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress';
 import { getItemsFromDendronNotes } from './dendron-utilities.mjs'
-import { DataParser } from './menu.mjs'
+import { DataParser } from './data-parser.mjs'
 import markdownItWikilinksFn from "markdown-it-wikilinks";
 
-const menu = new DataParser(getItemsFromDendronNotes);
+const data = new DataParser(getItemsFromDendronNotes);
 
 export default defineConfig({
   title: "eniblog",
@@ -13,8 +13,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/enibrn/eniblog' }
     ],
-    nav: menu.nav,
-    sidebar: menu.sidebar
+    nav: data.nav,
+    sidebar: data.sidebar
   },
   rewrites: {
     'notes/:note': ':note'
@@ -22,7 +22,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       const options = {
-        postProcessLabel: (label) => menu.linksVocabulary[label] ?? label
+        postProcessLabel: (label) => data.linksVocabulary[label] ?? label
       };
       md.use(markdownItWikilinksFn(options));
     }
