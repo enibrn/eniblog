@@ -14,35 +14,13 @@ export class DataParser {
   #sidebarLeafLinks = {}; //needed to park the nav items 
   #leafItems = []; //needed to park the whole leaf items
 
-  constructor() {
-    this.#setItemsFromDendronNotes();
+  constructor(getItemsFn) {
+    this.#setItems(getItemsFn);
     this.#generateDataFromItems();
   }
 
-  //this items setter function should be moved from here (like passed to the constructor and invoked there)
-  //to be dendron agnostic or to easily change the logic of retrieving notes metadata
-  #setItemsFromDendronNotes() {
-    const notes = JSON.parse(fs.readFileSync('notes/.dendron.cache.json', 'utf-8')).notes;
-    delete notes.root;
-
-    this.#items = Object.keys(notes).map(key => {
-      const itemData = notes[key].data;
-      return {
-        //copied props
-        key: key,
-        title: itemData.title,
-        created: itemData.created,
-        updated: itemData.updated,
-        //safe props
-        nav_order: itemData.nav_order ?? 999,
-        side: itemData.side ?? false,
-        linkToLastNote: itemData.linkToLastNote ?? false,
-        //calculated props
-        level: key.split('.').length,
-        // createdDate: new Date(itemData.created),
-        // updatedDate: new Date(itemData.updated),
-      };
-    });
+  #setItems(getItemsFn) {
+    this.#items = getItemsFn();
   }
 
   #generateDataFromItems() {
@@ -98,7 +76,7 @@ export class DataParser {
     if (childItems.length == 0) { // is a leaf item, therefore a page
       result.link = '/' + item.key; //vitepress needs / before links
       this.linksVocabulary[item.key] = item.title;
-      this.#leafItems.push(item);
+      this.#leafItems.push({ ...item, link: result.link });
 
       // the fist note as entry point of the sidebar is the default behaviour
       // to override set the prop linkToLastNote
@@ -129,14 +107,12 @@ export class DataParser {
 
     lastItems.forEach(item => {
       const fcontent = fs.readFileSync(`notes/${item.key}.md`, 'utf-8');
-      //it could throw an error on [2] if blank note, should never happen
-      //elsewhere rethink also how lastItems are taken, skip blank note etc...
-      const content = fcontent.split("---")[2].trim();
 
       const result = {
-        excerpt: DataParser.#getExcerpt(content),
-        firstImageLink: DataParser.#getFirstImageLink(content),
-        title: item.title
+        excerpt: DataParser.#getExcerpt(fcontent),
+        firstImageLink: DataParser.#getFirstImageLink(fcontent),
+        title: item.title,
+        link: item.link
       };
 
       results.push(result);
@@ -145,25 +121,29 @@ export class DataParser {
     return results;
   }
 
-  static #getExcerpt(content) {
+  static #getExcerpt(fcontent) {
+    //this will take the incipit between the two --- lines, or the rest of the article
+    //it could throw an error on [2] if blank note, should never happen
+    //elsewhere rethink also how lastItems are taken, skip blank note etc...
+    const content = fcontent.split("---")[2].trim();
     return truncate(content, 100, true);
 
-    function truncate( str, n, useWordBoundary ){
+    function truncate(str, n, useWordBoundary) {
       if (str.length <= n) { return str; }
-      const subString = str.slice(0, n-1); // the original check
-      return (useWordBoundary 
-        ? subString.slice(0, subString.lastIndexOf(" ")) 
+      const subString = str.slice(0, n - 1); // the original check
+      return (useWordBoundary
+        ? subString.slice(0, subString.lastIndexOf(" "))
         : subString) + "...";//"&hellip;";
     };
   }
 
   //similar to logic in ImageManager of dendron-move-images
-  static #getFirstImageLink(content) {
+  static #getFirstImageLink(fcontent) {
     let result = null;
     const imageRegex = /!\[([^\]]+)\]\(([^)]+)\)/g;
 
     let match;
-    while ((match = imageRegex.exec(content)) !== null) {
+    while ((match = imageRegex.exec(fcontent)) !== null) {
       if (isInCodeBlock(match))
         continue;
 

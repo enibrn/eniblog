@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress';
+import { getItemsFromDendronNotes } from './dendron-utilities.mjs'
 import { DataParser } from './menu.mjs'
 import markdownItWikilinksFn from "markdown-it-wikilinks";
 
-const menu = new DataParser();
+const menu = new DataParser(getItemsFromDendronNotes);
 
 export default defineConfig({
   title: "eniblog",
