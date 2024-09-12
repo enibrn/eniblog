@@ -1,26 +1,23 @@
 import fs from 'fs';
 
 //should be refactored with composable pattern instead of oop? Or a mix of the two
-export class DataParser {
+export class SiteMetadataService {
   // public props
   nav = []; //will render the navigation menu
   sidebar = {}; //will render the sidebars, one for each nav link
   linksVocabulary = {}; //needed to translate wikilinks labels, from keys to titles
-  lastCards = [];
+  homeCards = [];
 
   // private props
   #items = []; //item is the new view of the dendron note (a subset of its props and new calculated props)
   #sidebarLeafLinks = {}; //needed to park the nav items 
-  #leafItems = []; //needed to park the whole leaf items
+  #leafItems = []; //needed to park all the leaf items
 
   constructor(getItemsFn) {
-    this.#setItems(getItemsFn);
-    this.#traverseItemsHierarchically();
-    this.#setLastCards();
-  }
-
-  #setItems(getItemsFn) {
     this.#items = getItemsFn();
+
+    this.#traverseItemsHierarchically();
+    this.#setHomeCards();
   }
 
   #traverseItemsHierarchically() {
@@ -91,21 +88,21 @@ export class DataParser {
       .sort((a, b) => a.nav_order - b.nav_order);
   }
 
-  #setLastCards() {
+  #setHomeCards() {
     const lastCreatedItems = this.#leafItems
       .sort((a, b) => b.created - a.created)
       .slice(0, 4);
-    const lastCreatedCards = this.#getLastCards(lastCreatedItems, true);
+    const lastCreatedCards = this.#getHomeCards(lastCreatedItems, true);
 
     const lastUpdatedItems = this.#leafItems
       .filter(x => !lastCreatedItems.some(y => y.key === x.key)) //exclude newly created items
       .sort((a, b) => b.updated - a.updated)
       .slice(0, 4);
-    const lastUpdatedCards = this.#getLastCards(lastUpdatedItems, false);
-    this.lastCards = lastCreatedCards.concat(lastUpdatedCards);
+    const lastUpdatedCards = this.#getHomeCards(lastUpdatedItems, false);
+    this.homeCards = lastCreatedCards.concat(lastUpdatedCards);
   }
 
-  #getLastCards(lastItems, isNew) {
+  #getHomeCards(lastItems, isNew) {
     const results = [];
 
     lastItems.forEach(item => {
@@ -113,11 +110,11 @@ export class DataParser {
 
       const result = {
         title: item.title,
-        details: DataParser.#getCardBody(fcontent, item, isNew),
+        details: SiteMetadataService.#getCardBody(fcontent, item, isNew),
         link: item.link,
         //image not implemented currently
         // icon: {
-        //   src: DataParser.#getFirstImageLink(fcontent),
+        //   src: SiteMetadataService.#getFirstImageLink(fcontent),
         //   width: '100px'
         // }
       };
@@ -129,7 +126,7 @@ export class DataParser {
   }
 
   static #getCardBody(fcontent, item, isNew) {
-    const excerpt = DataParser.#getExcerpt(fcontent);
+    const excerpt = SiteMetadataService.#getExcerpt(fcontent);
 
     const badgeClass = isNew ? "tip" : "info";
 
