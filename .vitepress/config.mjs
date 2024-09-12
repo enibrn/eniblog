@@ -26,5 +26,9 @@ export default defineConfig({
       };
       md.use(markdownItWikilinksFn(options));
     }
+  },
+  transformPageData: (pageData, { siteConfig }) => {
+    if (pageData.frontmatter['layout'] !== 'home') return;
+    pageData.frontmatter['features'] = data.lastCards;
   }
 });

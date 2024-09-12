@@ -6,8 +6,7 @@ export class DataParser {
   nav = []; //will render the navigation menu
   sidebar = {}; //will render the sidebars, one for each nav link
   linksVocabulary = {}; //needed to translate wikilinks labels, from keys to titles
-  lastCreatedPages = [];
-  lastUpdatedPages = [];
+  lastCards = [];
 
   // private props
   #items = []; //item is the new view of the dendron note (a subset of its props and new calculated props)
@@ -16,14 +15,15 @@ export class DataParser {
 
   constructor(getItemsFn) {
     this.#setItems(getItemsFn);
-    this.#generateDataFromItems();
+    this.#traverseItemsHierarchically();
+    this.#setLastCards();
   }
 
   #setItems(getItemsFn) {
     this.#items = getItemsFn();
   }
 
-  #generateDataFromItems() {
+  #traverseItemsHierarchically() {
     const highestItemsOrdered = this.#items
       .filter(x => x.level === 1)
       .sort((a, b) => a.nav_order - b.nav_order);
@@ -31,17 +31,6 @@ export class DataParser {
     highestItemsOrdered.forEach(item => {
       this.nav.push(this.#traverseUntilSideItem(item));
     });
-
-    const lastCreatedItems = this.#leafItems
-      .sort((a, b) => b.created - a.created)
-      .slice(0, 4);
-    const lastUpdatedItems = this.#leafItems
-      .filter(x => !lastCreatedItems.some(y => y.key === x.key)) //exclude newly created items
-      .sort((a, b) => b.updated - a.updated)
-      .slice(0, 4);
-
-    this.lastCreatedPages = this.#getLastPages(lastCreatedItems);
-    this.lastUpdatedPages = this.#getLastPages(lastUpdatedItems);
   }
 
   #traverseUntilSideItem(item) {
@@ -102,23 +91,54 @@ export class DataParser {
       .sort((a, b) => a.nav_order - b.nav_order);
   }
 
-  #getLastPages(lastItems) {
+  #setLastCards() {
+    const lastCreatedItems = this.#leafItems
+      .sort((a, b) => b.created - a.created)
+      .slice(0, 4);
+    const lastCreatedCards = this.#getLastCards(lastCreatedItems, true);
+
+    const lastUpdatedItems = this.#leafItems
+      .filter(x => !lastCreatedItems.some(y => y.key === x.key)) //exclude newly created items
+      .sort((a, b) => b.updated - a.updated)
+      .slice(0, 4);
+    const lastUpdatedCards = this.#getLastCards(lastUpdatedItems, false);
+    this.lastCards = lastCreatedCards.concat(lastUpdatedCards);
+  }
+
+  #getLastCards(lastItems, isNew) {
     const results = [];
 
     lastItems.forEach(item => {
       const fcontent = fs.readFileSync(`notes/${item.key}.md`, 'utf-8');
 
       const result = {
-        excerpt: DataParser.#getExcerpt(fcontent),
-        firstImageLink: DataParser.#getFirstImageLink(fcontent),
         title: item.title,
-        link: item.link
+        details: DataParser.#getCardBody(fcontent, item, isNew),
+        link: item.link,
+        //image not implemented currently
+        // icon: {
+        //   src: DataParser.#getFirstImageLink(fcontent),
+        //   width: '100px'
+        // }
       };
 
       results.push(result);
     });
 
     return results;
+  }
+
+  static #getCardBody(fcontent, item, isNew) {
+    const excerpt = DataParser.#getExcerpt(fcontent);
+
+    const badgeClass = isNew ? "tip" : "info";
+
+    const formatDate = (date) => Intl.DateTimeFormat().format(date);
+    const dateString = isNew ? formatDate(item.createdDate) : formatDate(item.updatedDate);
+    const badgeText = isNew ? `Creato il ${dateString}` : `Aggiornato il ${dateString}`;
+
+    const result = `${excerpt}<br><br><span class="VPBadge ${badgeClass}">${badgeText}</span>`;
+    return result;
   }
 
   static #getExcerpt(fcontent) {
@@ -152,6 +172,7 @@ export class DataParser {
       break;
     }
 
+    //TODO needed format: "./notes/assets/images/zirael.jpg"
     return result;
 
     function isInCodeBlock(match) {

@@ -18,8 +18,8 @@ export function getItemsFromDendronNotes() {
       linkToLastNote: itemData.linkToLastNote ?? false,
       //calculated props
       level: key.split('.').length,
-      // createdDate: new Date(itemData.created),
-      // updatedDate: new Date(itemData.updated),
+      createdDate: new Date(itemData.created),
+      updatedDate: new Date(itemData.updated),
     };
   });
 }
