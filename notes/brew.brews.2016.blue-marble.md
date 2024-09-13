@@ -2,7 +2,7 @@
 id: ya0j865vu18mw30iswznmyb
 title: Blue Marble
 desc: ''
-updated: 1726255050121
+updated: 1726258621044
 created: 1688744651986
 nav_order: 9
 ---
@@ -34,4 +34,4 @@ Cotta buttata perché infetta, oltre a questo avevamo avuto problemi di efficien
 
 A vederle ora, le ricette, stonano completamente con lo stile. Troppo poco luppolo!
 
-![image](./assets/images/cottaBlueMarble.jpg)
+![image](./assets/images/cottabluemarble.jpg)
