@@ -2,7 +2,7 @@
 id: s1ozeft08mjsh9oe49898uz
 title: Montblanc
 desc: ''
-updated: 1726254901953
+updated: 1726258663638
 created: 1688744651984
 nav_order: 3
 ---
@@ -55,4 +55,4 @@ Il corpo leggero e l'alta carbonazione la rendono rinfrescante e scorrevole.
 
 Complessivamente è una buona birra, attinente allo stile e dall'aspetto discreto. Ho solo notato un'eccessiva presenza di lievito nell'ultima parte di una bottiglia.
 
-![image](./assets/images/montBlanc.jpg)
+![image](./assets/images/montblanc.jpg)

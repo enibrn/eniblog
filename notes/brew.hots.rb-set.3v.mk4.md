@@ -2,7 +2,7 @@
 id: 5l5ke12x71j8bapgxvf73az
 title: Mark 4
 desc: ''
-updated: 1725813791315
+updated: 1726258826355
 created: 1688563656604
 nav_order: 4
 ---
@@ -17,4 +17,4 @@ I due upgrade maggiori all'impianto, avvenuti a cavallo fra 2016 e 2017 sono sta
 Ovviamente non poteva mancare l'ennesimo tentativo di costruire un filtro springer con un tubo flessibile...  
 E abbiamo cambiato location spostandoci a casa mia.
 
-![filtroSpringer](./assets/images/filtroSpringer.jpg)
+![filtroSpringer](./assets/images/filtrospringer.jpg)

@@ -2,7 +2,7 @@
 id: makrl8mtqu66xbzyc6ipm2x
 title: Fen'Harel
 desc: ''
-updated: 1726255087608
+updated: 1726258663640
 created: 1688744651987
 nav_order: 12
 ---
@@ -41,4 +41,4 @@ Il 2016 finì salvandosi in corner con quella che è la nostra produzione miglio
 
 Assente il pepato ma tutto il resto come secchezza, fenolico e "rustico" c'è. Anche la limpidezza dopo una winterizzazione sul balcone di qualche giorno, assicurandomi con la fascia riscaldante e l'inkbird di non andare sotto zero. Menzione d'onore al colore.
 
-![image](./assets/images/fenHarel.jpg)
+![image](./assets/images/fenharel.jpg)

@@ -2,7 +2,7 @@
 id: 6rfjw9hronyswc203e9in6a
 title: Pale Blue Dot
 desc: ''
-updated: 1726254972964
+updated: 1726258663635
 created: 1688744651985
 nav_order: 6
 ---
@@ -50,4 +50,4 @@ Complessivamente si può affermare che sia la migliore birra nel primo semestre 
 
 Miglioramenti futuri: la componente di malto va bene, forse attenuare leggermente la quantità di crystal per ottenerla più chiara. Aumentare le quantità a 100g totali di chinook (23lt) da ripartire nei giusti momenti per non alzare eccessivamente l’amaro ma aumentare la componente aromatica. Aumentare anche la quantità di tettnanger in dry hopping, magari prevedendo due batch dopo il travaso (uno con solo chinook e l’altro con anche tettnanger). Migliorare leggermente la torbidità della birra.
 
-![image](./assets/images/paleBlueDot.jpg)
+![image](./assets/images/palebluedot.jpg)

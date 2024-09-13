@@ -2,7 +2,7 @@
 id: h8kcr6wybrl8qux0s1pe6h6
 title: Solar Eclipse
 desc: ''
-updated: 1726254945264
+updated: 1726258826360
 created: 1688744651984
 nav_order: 4
 ---
@@ -53,4 +53,4 @@ Abbiamo preso 50 g di fave (per circa 23 lt di birra) e messe in un barattolo di
 Per non far si che i grassi presenti nelle fave inibissero la schiuma abbiamo rimosso (e buttato) le fave, messo il barattolo in freezer per una notte e poi tolto la patina sopra ghiacciata (erano i grassi più altre impurità).  
 L'estratto così ottenuto lo abbiamo aggiunto durante il travaso in secondaria.
 
-![image](./assets/images/solarEclipse.jpg)
+![image](./assets/images/solareclipse.jpg)

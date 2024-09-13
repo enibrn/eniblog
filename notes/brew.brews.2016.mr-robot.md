@@ -2,7 +2,7 @@
 id: g14hqx9skjf69odavu4tzop
 title: Mr Robot
 desc: ''
-updated: 1726254961188
+updated: 1726258663637
 created: 1688744651984
 nav_order: 5
 ---
@@ -47,4 +47,4 @@ Si riconfermano le sensazioni al naso, forse l'unico difetto è qualche nota alc
 
 Corpo medio, carbonazione elevata.
 
-![image](./assets/images/mrRobot.jpg)
+![image](./assets/images/mrrobot.jpg)

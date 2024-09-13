@@ -2,7 +2,7 @@
 id: qndaxz0p05fi6p147gc6klr
 title: Ecstasy Of Gold
 desc: ''
-updated: 1726254827923
+updated: 1726258663643
 created: 1688744651981
 nav_order: 1
 ---
@@ -14,4 +14,4 @@ Le prime cotte ci vennero bene per gli standard dell'epoca e ci diedero slancio 
 Tornando alla birra, questa fu una Mexican lager da kit luppolato Cooper prodotta il 6 marzo 2016.
 Ci ha permesso di prendere confidenza con la fermentazione, per il resto birra poco riuscita di sapore sidroso, dimenticabile.
 
-![image](./assets/images/ecstasyOfGold.jpg)
+![image](./assets/images/ecstasyofgold.jpg)

@@ -2,7 +2,7 @@
 id: 9nrn3is92nyte41ihiq29zz
 title: Mark 1
 desc: ''
-updated: 1725813791311
+updated: 1726258826357
 created: 1688561390654
 nav_order: 1
 ---
@@ -20,6 +20,6 @@ Vista la grande differenza di dimensioni delle pentole utilizzavamo 3,5/4 litri 
 Il filtro springer era ricavato da un tubo flessibile in inox, con tubo interno in gomma tagliato e rimosso. Per un anno ci siamo ostinati con questo tipo di filtri autocostruiti e abbiamo sempre avuto grandi problemi di filtraggio.
 Si piegano facilmente e tendono a muoversi quando si mescolano le trebbie rimanendo spesso impigliati nel mestolo, ma sopratutto si intasano sempre (e il frumento della weiss ovviamente non aiutava). Ragionando a posteriori dalle foto anche la macinatura era troppo fine.
 
-![mark1Sparge](./assets/images/mark1Sparge.jpg)
+![mark1Sparge](./assets/images/mark1sparge.jpg)
 
 L'attrezzatura accessoria era veramente basilare: termometro a gabbietta (che si è sempre confermato affidabile e pratico nell'utilizzo a dispetto del milione di termometri digitali che ci hanno abbandonato) e ph misurato con le cartine tornasole.

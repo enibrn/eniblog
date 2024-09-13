@@ -2,13 +2,13 @@
 id: f3qfugjo75q3q9s4s7ap8im
 title: Biab
 desc: ''
-updated: 1726255522386
+updated: 1726258826353
 created: 1688563824750
 nav_order: 2
 ---
 Con l'abbandono di un socio nel 2017 decidemmo di semplificare l'impianto per produrre qualche litro in meno. Nacque così un impianto costola del tre tini composto da una pentola da 35 litri con la sacca da biab e un fornellone.
 
-![cottaRobustPorter](./assets/images/cottaRobustPorter.jpg)
+![cottaRobustPorter](./assets/images/cottarobustporter.jpg)
 
 ## Debugging & refactoring
 
@@ -43,7 +43,7 @@ In questo modo mi sono semplificato notevolmente la vita, una mescolata, chiudev
 
 Stando all'aperto in cortile mi sono preoccupato di meno di sporcare rispetto al garage e ho approfittato dell'acqua di raffreddamento oramai fredda per innaffiare gli alberi (i primi 30 litri caldi li riutilizzavo per pulire).
 
-![cottaWhiteIPA](./assets/images/cottaWhiteIPA.jpg)
+![cottaWhiteIPA](./assets/images/cottawhiteipa.jpg)
 
 ## Tempi
 
