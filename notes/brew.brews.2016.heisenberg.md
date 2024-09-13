@@ -2,32 +2,33 @@
 id: 2me8fo1f9th6iziw3no33m0
 title: Heisenberg
 desc: ''
-updated: 1725997743962
+updated: 1726254878435
 created: 1688744651984
 nav_order: 2
 ---
 Continuamo con lo storico delle birre prodotte con una weiss prodotta il 2 aprile 2016.
 
----
 Essendo il primo post di una ricetta ne approfitterò per introdurre un nuovo layout che cercherò di migliorare nei prossimi post di questo genere. Questa è stata la nostra prima e unica weisse, all'epoca il risultato ci sembrò stupefacente e ci diede lo slancio in questo hobby.
 
-### Fermentabili
+## Fermentabili
 
 | Tipologia     | Peso   |
 |---------------|--------|
 | Malto Pilsner | 2,5 kg |
 | Malto Weizen  | 2,5 kg |
 
-### Luppoli
+## Luppoli
 
 | Varietà     | Tempo  |
 |-------------|--------|
 | Target      | 60 min |
 | Hersbrucker | 10 min |
 
-### Lievito
+## Lievito
 
 Fermentis Safale WB-06
+
+## Assaggio
 
 ### Aspetto
 

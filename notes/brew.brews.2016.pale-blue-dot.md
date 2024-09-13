@@ -2,22 +2,20 @@
 id: 6rfjw9hronyswc203e9in6a
 title: Pale Blue Dot
 desc: ''
-updated: 1725997784663
+updated: 1726254972964
 created: 1688744651985
 nav_order: 6
 ---
 Birra in stile American Pale Ale, prodotta il 7 agosto 2016.
 
----
-
-### Fermentabili
+## Fermentabili
 
 | Tipologia     | Peso   |
 |---------------|--------|
 | Malto Pale    | 5,7 kg |
 | Malto Crystal | 500 gr |
 
-### Luppoli
+## Luppoli
 
 | Varietà    | Tempo  | Peso  |
 |------------|--------|-------|
@@ -26,9 +24,11 @@ Birra in stile American Pale Ale, prodotta il 7 agosto 2016.
 | Chinook    | 10 min | 15 gr |
 | Tettnanger | DH     | 15 gr |
 
-### Lievito
+## Lievito
 
 Fermentis Safale US-05
+
+## Assaggio
 
 ### Aspetto
 

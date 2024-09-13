@@ -2,7 +2,7 @@
 id: f3qfugjo75q3q9s4s7ap8im
 title: Biab
 desc: ''
-updated: 1725813791309
+updated: 1726255522386
 created: 1688563824750
 nav_order: 2
 ---
@@ -10,7 +10,7 @@ Con l'abbandono di un socio nel 2017 decidemmo di semplificare l'impianto per pr
 
 ![cottaRobustPorter](./assets/images/cottaRobustPorter.jpg)
 
-### Debugging & refactoring
+## Debugging & refactoring
 
 Se vediamo la scaletta (a parte la prima voce) appare chiara una cosa: la progressiva semplificazione e ottimizzazione dell'impianto.
 
@@ -27,7 +27,7 @@ Accantonato il sogno di costruirmi un herms elettrico come quello della demo di 
 
 La causa del problema di prima era: principi di infezioni dovute all'oxi-san che non disinfetta (colpa anche dei venditori di materiale brassicolo che contribuiscono a questa disinformazione) e ossidazioni eccessive dovute ai travasi. L'errore era quindi nella seconda parte della produzione, la parte "fredda", ma non lo avrei mai capito senza semplificare. E ho anche imparato che con qualche accorgimento si può produrre lo stesso mosto pulendo una sola pentola e riducendo di qualche ora il travaglio. Non male!
 
-### L'impianto
+## L'impianto
 
 Come accennato nell'introduzione ho cercato di semplificare all'osso le cotte che un tempo mi portavano via l'intero pomeriggio (dalle 14:00/15:00 alle 21:00/22:00 circa) al termine delle quali ero stravolto e facevo gli ultimi passaggi affrettatamente e in preda alla stanchezza. La parola d'ordine è BIAB, acronimo che sta per **brew in a bag** (birrificare nella sacca).
 
@@ -45,7 +45,7 @@ Stando all'aperto in cortile mi sono preoccupato di meno di sporcare rispetto al
 
 ![cottaWhiteIPA](./assets/images/cottaWhiteIPA.jpg)
 
-### Tempi
+## Tempi
 
 Non ho cronometrato il tempo ma riuscivo a finire per cena senza dover lavare dopo e anche meno stanco, il tempo risparmiato si può approssimare in un paio di ore in cui in precedenza.
 
@@ -59,7 +59,7 @@ Non ho cronometrato il tempo ma riuscivo a finire per cena senza dover lavare do
   - Volumi leggermente minori (18 litri anziché 23 anche se non è dovuto al biab in se).
   - Minor tempo per la pulizia (1 sola pentola contro 2, quella di sparge non la conto).
 
-### Altri vantaggi riscontrati
+## Altri vantaggi riscontrati
 
 - Nessun problema di filtraggio nemmeno con alte dosi di frumento.
 - Minor spazio occupato.

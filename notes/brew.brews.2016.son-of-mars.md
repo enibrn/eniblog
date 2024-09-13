@@ -2,15 +2,13 @@
 id: 1e6aslc78ymsw0gh0omdxag
 title: The Son Of Mars
 desc: ''
-updated: 1725914421938
+updated: 1726255014702
 created: 1688744651985
 nav_order: 8
 ---
 Birra al miele di castagno prodotta il 18 settembre 2016.
 
----
-
-### Fermentabili
+## Fermentabili
 
 | Tipologia               | Percentuale |
 |-------------------------|-------------|
@@ -19,7 +17,7 @@ Birra al miele di castagno prodotta il 18 settembre 2016.
 | Malto Monaco            | 14%         |
 | Miele                   | 3%          |
 
-### Luppoli
+## Luppoli
 
 | Varietà              | Tempo  | Amaro     |
 |----------------------|--------|-----------|
@@ -27,9 +25,11 @@ Birra al miele di castagno prodotta il 18 settembre 2016.
 | Styrian Goldings     | 30 min | 4,2 IBU   |
 | Styrian Goldings     | 15 min | 1 IBU     |
 
-### Lievito
+## Lievito
 
 Fermentis Safale US-05
+
+## Assaggio
 
 Questa birra al miele piaceva agli altri due "birrai" ma non a me. Per tempo ho avuto il sospetto che il forte aroma di miele sostenuto dagli altri non fosse altro che eccessiva ossidazione e una sospetta infezione. Infatti dividemmo il mosto dopo la fermentazione primaria in 11 litri circa in due fermentatori da 32 lt (uno con styrian golding in dh e l'altro con chips di legno precedentemente imbevute nel Jack Daniel's). Le ultime bottiglie erano inservibili per l'eccessivo gushing.
 

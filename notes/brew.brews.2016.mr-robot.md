@@ -2,15 +2,13 @@
 id: g14hqx9skjf69odavu4tzop
 title: Mr Robot
 desc: ''
-updated: 1725997764929
+updated: 1726254961188
 created: 1688744651984
 nav_order: 5
 ---
 Birra ambrata in stile inglese prodotta il 17 luglio 2016 e imbottigliata il 6 agosto.
 
----
-
-### Fermentabili
+## Fermentabili
 
 | Tipologia                        | Peso   |
 |----------------------------------|--------|
@@ -18,7 +16,7 @@ Birra ambrata in stile inglese prodotta il 17 luglio 2016 e imbottigliata il 6 a
 | Malto Crystal                    | 500 gr |
 | Zucchero caramellato (invertito) | 400 gr |
 
-### Luppoli
+## Luppoli
 
 | Varietà       | Tempo  |
 |---------------|--------|
@@ -27,9 +25,11 @@ Birra ambrata in stile inglese prodotta il 17 luglio 2016 e imbottigliata il 6 a
 | E.K. Goldings | 10 min |
 | E.K. Goldings | DH     |
 
-### Lievito
+## Lievito
 
 Fermentis Safale S-04
+
+## Assaggio
 
 ### Aspetto
 

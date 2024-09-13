@@ -2,15 +2,13 @@
 id: s1ozeft08mjsh9oe49898uz
 title: Montblanc
 desc: ''
-updated: 1725997760510
+updated: 1726254901953
 created: 1688744651984
 nav_order: 3
 ---
 Birra di frumento stile blanche prodotta il 24 aprile 2016 e imbottigliata l'8 maggio dopo un travaso.
 
----
-
-### Fermentabili
+## Fermentabili
 
 | Tipologia           | Peso   |
 |---------------------|--------|
@@ -19,23 +17,25 @@ Birra di frumento stile blanche prodotta il 24 aprile 2016 e imbottigliata l'8 m
 | Fiocchi di frumento | 400 gr |
 | Fiocchi d'avena     | 100 gr |
 
-### Luppoli
+## Luppoli
 
 | Varietà         | Tempo  |
 |-----------------|--------|
 | Styrian Golding | 60 min |
 | Saaz            | 60 min |
 
-### Spezie
+## Spezie
 
 | Nome                   | Peso  | Tempo  |
 |------------------------|-------|--------|
 | Buccia d'arancia amara | 10 gr | 15 min |
 | Coriandolo             | 10 gr | 15 min |
 
-### Lievito
+## Lievito
 
 Mangrove Jack M21 Belgian Wit
+
+## Assaggio
 
 ### Aspetto
 

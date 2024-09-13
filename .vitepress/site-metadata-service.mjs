@@ -142,7 +142,7 @@ export class SiteMetadataService {
     //this will take the incipit between the two --- lines, or the rest of the article
     //it could throw an error on [2] if blank note, should never happen
     //elsewhere rethink also how lastItems are taken, skip blank note etc...
-    const content = fcontent.split("---")[2].trim();
+    const content = fcontent.split("---")[2].split("#")[0].trim();
     return truncate(content, 100, true);
 
     function truncate(str, n, useWordBoundary) {

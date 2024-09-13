@@ -2,17 +2,15 @@
 id: dh1tffuko3w3ow1w6ztl7d4
 title: Newton
 desc: ''
-updated: 1725997816324
+updated: 1726254999223
 created: 1688744651985
 nav_order: 7
 ---
 Birra di natale prodotta il 16 agosto 2016.
 
----
-
 Si trattava di una classica birra di natale, piuttosto alcolica e strutturata. Color ambrato scuro con riflessi rubino. L'ultima bottiglia, bevuta a ferragosto 2018 sembrava un panettone liquido.
 
-### Fermentabili
+## Fermentabili
 
 | Tipologia               | Percentuale |
 |------------------------ |-------------|
@@ -21,14 +19,14 @@ Si trattava di una classica birra di natale, piuttosto alcolica e strutturata. C
 | Malto Chocolate         | 1%          |
 | Zucchero candito scuro  | 7%          |
 
-### Luppoli
+## Luppoli
 
 | Varietà              | Tempo  | Amaro   |
 |----------------------|--------|---------|
 | Super Styrian Aurora | 60 min | 37 IBU  |
 | Styrian Goldings     | 30 min | 1,5 IBU |
 
-### Spezie
+## Spezie
 
 | Nome                   | Peso  | Tempo  |
 |------------------------|-------|--------|
@@ -36,9 +34,11 @@ Si trattava di una classica birra di natale, piuttosto alcolica e strutturata. C
 | Zenzero                | 10 gr | 15 min |
 | Cannella               | 10 gr | 15 min |
 
-### Lievito
+## Lievito
 
-Fermentis safbrew abbey  
+Fermentis safbrew abbey
+
+## Assaggio
 
 Avevamo ottenuto una OG più bassa del previsto (1075 contro i 1090) e una FG più bassa (1011 contro 1023) dovuta probabilmente a una fermentazione molto vigorosa e ad alte temperature (26 gradi, ai tempi non avevamo un frigor e il ghiaccio sintetico non bastò). Ci accontentammo di circa 8 gradi (e qualcosa in più dovuti alla rifermentazione).
 

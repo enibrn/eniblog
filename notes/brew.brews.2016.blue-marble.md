@@ -2,22 +2,20 @@
 id: ya0j865vu18mw30iswznmyb
 title: Blue Marble
 desc: ''
-updated: 1725997276690
+updated: 1726255050121
 created: 1688744651986
 nav_order: 9
 ---
 American Pale Ale, cotta del 16 ottobre 2016.
 
----
-
-### Fermentabili
+## Fermentabili
 
 | Tipologia               | Percentuale |
 |-------------------------|-------------|
 | Malto Pale              | 95%         |
 | Malto Crystal (200 Ebc) | 5%          |
 
-### Luppoli
+## Luppoli
 
 | Varietà    | Tempo  | Amaro   |
 |------------|--------|---------|
@@ -26,9 +24,11 @@ American Pale Ale, cotta del 16 ottobre 2016.
 | Chinook    | 20 min | 15 IBU  |
 | Willamette | 5 min  | 2,3 IBU |
 
-### Lievito
+## Lievito
 
 Fermentis Safale US-05
+
+## Assaggio
 
 Cotta buttata perché infetta, oltre a questo avevamo avuto problemi di efficienza (OG 1030 contro 1056 previsti). La ricetta è quasi una copia della pale ale che avevamo fatto ad agosto, una pale ale al confine delle amber.
 
