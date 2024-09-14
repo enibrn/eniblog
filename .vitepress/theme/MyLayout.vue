@@ -1,7 +1,31 @@
+<template>
+  <Layout>
+    <template #doc-before>
+      <div class="vp-doc">
+        <h1>
+          {{ $frontmatter.title + ' ' }}
+          <Badge
+            type="tip"
+            :text="formattedCreated"
+          />
+          <Badge
+            type="info"
+            :text="formattedUpdated"
+          />
+        </h1>
+      </div>
+    </template>
+    <template #doc-after>
+      <Comments />
+    </template>
+  </Layout>
+</template>
+
 <script setup>
 import { computed } from 'vue';
 import DefaultTheme from 'vitepress/theme';
 import { useData } from 'vitepress';
+import Comments from './components/Comments.vue'
 
 const { Layout } = DefaultTheme;
 const { frontmatter } = useData();
@@ -16,17 +40,3 @@ function getDateText(ts, created) {
   return result;
 }
 </script>
-
-<template>
-  <Layout>
-    <template #doc-before>
-      <div class="vp-doc">
-        <h1>
-          {{ $frontmatter.title + ' ' }}
-          <Badge type="tip" :text="formattedCreated" />
-          <Badge type="info" :text="formattedUpdated" />
-        </h1>
-      </div>
-    </template>
-  </Layout>
-</template>

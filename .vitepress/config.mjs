@@ -14,7 +14,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/enibrn/eniblog' }
     ],
     nav: siteMetadata.nav,
-    sidebar: siteMetadata.sidebar
+    sidebar: siteMetadata.sidebar,
+    search: {
+      provider: 'local'
+    }
   },
   rewrites: {
     'notes/:note': ':note'
@@ -28,7 +31,19 @@ export default defineConfig({
     }
   },
   transformPageData: (pageData, { siteConfig }) => {
-    if (pageData.frontmatter['layout'] !== 'home') return;
-    pageData.frontmatter['features'] = siteMetadata.homeCards;
+    if (pageData.frontmatter['layout'] === 'home') {
+      //dinamically add cards to homepage by editing its frontmatter
+      pageData.frontmatter['features'] = siteMetadata.homeCards;
+    } else { //only 2 types of pages in the website, homepage or page
+      // add an ID in the head's og:title for an immutable reference to the page for giscus
+      pageData.frontmatter.head ??= [];
+      pageData.frontmatter.head.push([
+        'meta',
+        {
+          name: 'og:title',
+          content: pageData.frontmatter['id']
+        }
+      ]);
+    }
   }
 });
