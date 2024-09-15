@@ -2,9 +2,11 @@
 id: cn4ssku4pd3kzalwmzuaeq6
 title: Mark 3
 desc: ''
-updated: 1725813791318
+updated: 1726431370089
 created: 1688561555790
 nav_order: 3
+vp:
+  ogdate: "2019-03-15"
 ---
 Avevamo intenzione di fare molte modifiche in estate, come motorizzare la fase di mash, fly sparge e automatizzare l'impianto, poi per mancanza di tempo ci siamo tenuti essenzialmente quello che avevamo con qualche miglioria.
 Abbiamo cambiato solo i rubinetti con due valvole a sfera in inox le quali ci consentivano anche di poter avvitare i rubinetti leggermente storti ma ben stretti.

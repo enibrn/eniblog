@@ -2,9 +2,11 @@
 id: 9nrn3is92nyte41ihiq29zz
 title: Mark 1
 desc: ''
-updated: 1726258826357
+updated: 1726431226171
 created: 1688561390654
 nav_order: 1
+vp:
+  ogdate: "2019-03-15"
 ---
 La prima versione venne utilizzata per la cotta del 02/04/2016 della [[brew.brews.2016.ecstasy-of-gold]].
 

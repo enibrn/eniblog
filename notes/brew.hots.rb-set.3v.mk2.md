@@ -2,9 +2,11 @@
 id: cw94zwgmxs83xt7ben5ilds
 title: Mark 2
 desc: ''
-updated: 1725813791321
+updated: 1726431368706
 created: 1688561508867
 nav_order: 2
+vp:
+  ogdate: "2019-03-15"
 ---
 Nella seconda cotta abbiamo fatto alcune migliorie rispetto alla prima versione, nella quale mi sono reso conto del procedimento.
 Abbiamo aggiunto:

@@ -2,9 +2,11 @@
 id: 46nu5csqxfgv8t7gwc4k222
 title: Mark 5
 desc: ''
-updated: 1725813791313
+updated: 1726431397397
 created: 1688563694002
 nav_order: 5
+vp:
+  ogdate: "2019-03-18"
 ---
 Dopo aver usato il biab d'estate siamo tornati al tre tini alla fine del 2017 per volumi maggiori.
 
