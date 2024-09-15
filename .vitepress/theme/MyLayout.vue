@@ -1,24 +1,21 @@
 <template>
   <Layout>
-    <!-- <template #doc-before>
-      <div class="vp-doc">
-        <h1>
-          {{ $frontmatter.title + ' ' }}
-          <Badge
-            type="tip"
-            :text="formattedCreated"
-          />
-          <Badge
-            type="info"
-            :text="formattedUpdated"
-          />
-        </h1>
+    <template #doc-before>
+      <div style="margin-bottom: 1em;">
+        <Badge
+          type="tip"
+          :text="formattedCreated"
+        />
+
+        <Badge
+          type="info"
+          :text="formattedUpdated"
+        />
       </div>
-    </template> -->
+    </template>
+
     <template #doc-after>
-      <pre><code>{{ $frontmatter }}</code></pre>
-      <span>$frontmatter.id</span>{{ frontmatter.title }}
-      <Comments :pageId="frontmatter.id"/>
+      <Comments :pageId="frontmatter.id" />
     </template>
   </Layout>
 </template>

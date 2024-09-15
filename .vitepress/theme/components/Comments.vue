@@ -1,8 +1,8 @@
 <template>
-  <span>pageId</span>{{ pageId }}
   <div
     :key="pageId"
     class="giscus"
+    style="margin-top: 1em;"
   >
     <component
       :is="'script'"
@@ -35,6 +35,7 @@ const props = defineProps({
   }
 });
 
+//discussions are separated between the published and development versions
 const giscusPageId = computed(() => {
   const suffix = window.location.hostname === 'localhost' ? '_dev' : '';
   return props.pageId + suffix;

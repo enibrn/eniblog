@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 import { getItemsFromDendronNotes } from './dendron-utilities.mjs'
 import { SiteMetadataService } from './site-metadata-service.mjs'
 import markdownItWikilinksFn from "markdown-it-wikilinks";
-import addTitlePluginFn from './markdown-it-add-title.mjs';
+import mditCustomPluginFn from './mdit-custom-plugin.mjs';
 
 const siteMetadata = new SiteMetadataService(getItemsFromDendronNotes);
 
@@ -30,7 +30,7 @@ export default defineConfig({
         postProcessLabel: (label) => siteMetadata.linksVocabulary[label] ?? label
       };
       md.use(markdownItWikilinksFn(options));
-      md.use(addTitlePluginFn);
+      md.use(mditCustomPluginFn);
     }
   },
   transformPageData: (pageData) => {
