@@ -134,7 +134,8 @@ export class SiteMetadataService {
 
     const badgeClass = isNew ? "tip" : "info";
 
-    const formatDate = (date) => Intl.DateTimeFormat().format(date);
+    const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+    const formatDate = (date) => date.toLocaleDateString("it-IT", options);
     const dateString = isNew ? formatDate(item.createdDate) : formatDate(item.updatedDate);
     const badgeText = isNew ? `Creato il ${dateString}` : `Aggiornato il ${dateString}`;
 

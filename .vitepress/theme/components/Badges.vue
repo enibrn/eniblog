@@ -38,11 +38,12 @@ const props = defineProps({
 });
 
 //should be unified to the one in SiteMetadataService.#getCardBody
-const formatTs = (ts) => Intl.DateTimeFormat().format(new Date(ts));
+const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+const formatTs = (ts) => new Date(ts).toLocaleDateString("it-IT", options);
 const createdDateString = computed(() => `Creato il ${formatTs(props.createdTimestamp)}`);
 const updatedDateString = computed(() => `Aggiornato il ${formatTs(props.updatedTimestamp)}`);
 
-const formatDate = (dts) => Intl.DateTimeFormat().format(new Date(dts));
+const formatDate = (dts) => new Date(dts).toLocaleDateString("it-IT", options);
 const ogDateString = computed(() => `Originariamente creato il ${formatDate(props.ogDate)}`);
 
 </script>
