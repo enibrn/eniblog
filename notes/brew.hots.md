@@ -2,8 +2,9 @@
 id: g01q4zisccctzuzgra84ofd
 title: Lato caldo
 desc: ''
-updated: 1725814022162
+updated: 1726406390448
 created: 1725201959055
-side: true
 nav_order: 1
+vp:
+  side: true
 ---

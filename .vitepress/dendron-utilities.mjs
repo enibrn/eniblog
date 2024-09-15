@@ -7,16 +7,16 @@ export function getItemsFromDendronNotes() {
   return Object.keys(notes).map(key => {
     const itemData = notes[key].data;
     return {
-      //copied props
+      //copied props from dendron structure
       key: key,
       title: itemData.title,
       created: itemData.created,
       updated: itemData.updated,
-      //safe props
-      nav_order: itemData.nav_order ?? 999,
-      side: itemData.side ?? false,
-      linkToLastNote: itemData.linkToLastNote ?? false,
+      //custom props for vitepress
+      side: itemData.vp?.side ?? false,
+      linkToLastNote: itemData.vp?.linkToLastNote ?? false, //not tested
       //calculated props
+      nav_order: itemData.nav_order ?? 999,
       level: key.split('.').length,
       createdDate: new Date(itemData.created),
       updatedDate: new Date(itemData.updated),

@@ -7,14 +7,18 @@ export class SiteMetadataService {
   sidebar = {}; //will render the sidebars, one for each nav link
   linksVocabulary = {}; //needed to translate wikilinks labels, from keys to titles
   homeCards = [];
+  itemsLoggedTest = [];
 
   // private props
   #items = []; //item is the new view of the dendron note (a subset of its props and new calculated props)
   #sidebarLeafLinks = {}; //needed to park the nav items 
   #leafItems = []; //needed to park all the leaf items
 
-  constructor(getItemsFn) {
+  constructor(getItemsFn, isTest) {
     this.#items = getItemsFn();
+    if (isTest) {
+      this.itemsLoggedTest = this.#items;
+    }
 
     this.#traverseItemsHierarchically();
     this.#setHomeCards();
