@@ -4,6 +4,7 @@
       <Badges
         :createdTimestamp="$frontmatter.created"
         :updatedTimestamp="$frontmatter.updated"
+        :ogDate="$frontmatter.vp?.ogdate"
       />
     </template>
 

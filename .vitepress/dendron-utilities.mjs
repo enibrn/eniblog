@@ -15,6 +15,7 @@ export function getItemsFromDendronNotes() {
       //custom props for vitepress
       side: itemData.vp?.side ?? false,
       linkToLastNote: itemData.vp?.linkToLastNote ?? false, //not tested
+      //ogdateString: itemData.vp?.ogdate, //not needed for metadata
       //calculated props
       nav_order: itemData.nav_order ?? 999,
       level: key.split('.').length,
