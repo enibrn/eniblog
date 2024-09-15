@@ -2,11 +2,15 @@
 id: s1ozeft08mjsh9oe49898uz
 title: Montblanc
 desc: ''
-updated: 1726258663638
+updated: 1726409397995
 created: 1688744651984
 nav_order: 3
+vp:
+  ogdate: "2016-05-25"
 ---
 Birra di frumento stile blanche prodotta il 24 aprile 2016 e imbottigliata l'8 maggio dopo un travaso.
+
+Prodotta con kit ag birramia. Aggiunta di 10 grammi di coriandolo a 15 minuti dalla fine.
 
 ## Fermentabili
 
@@ -56,3 +60,7 @@ Il corpo leggero e l'alta carbonazione la rendono rinfrescante e scorrevole.
 Complessivamente è una buona birra, attinente allo stile e dall'aspetto discreto. Ho solo notato un'eccessiva presenza di lievito nell'ultima parte di una bottiglia.
 
 ![image](./assets/images/montblanc.jpg)
+
+## Logo originale
+
+![logo](./assets/images/2024-09-15-16-09-48.png)

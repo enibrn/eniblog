@@ -2,9 +2,11 @@
 id: uuoy7q0h6w59u99s60cy4bs
 title: Zirael
 desc: ''
-updated: 1726255075030
+updated: 1726411078771
 created: 1688744651986
 nav_order: 11
+vp:
+  ogdate: "2017-12-09"
 ---
 Kolsch prodotta il 27 novembre 2016.
 

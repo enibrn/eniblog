@@ -2,11 +2,13 @@
 id: g14hqx9skjf69odavu4tzop
 title: Mr Robot
 desc: ''
-updated: 1726258663637
+updated: 1726410780548
 created: 1688744651984
 nav_order: 5
+vp:
+  ogdate: "2016-08-12"
 ---
-Birra ambrata in stile inglese prodotta il 17 luglio 2016 e imbottigliata il 6 agosto.
+Birra ambrata in stile inglese prodotta il 17 luglio 2016 e imbottigliata il 6 agosto (kit ag birramia).
 
 ## Fermentabili
 
@@ -48,3 +50,7 @@ Si riconfermano le sensazioni al naso, forse l'unico difetto è qualche nota alc
 Corpo medio, carbonazione elevata.
 
 ![image](./assets/images/mrrobot.jpg)
+
+## Logo originale
+
+![logo](./assets/images/2024-09-15-16-32-42.png)

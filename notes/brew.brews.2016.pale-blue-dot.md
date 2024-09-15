@@ -2,9 +2,11 @@
 id: 6rfjw9hronyswc203e9in6a
 title: Pale Blue Dot
 desc: ''
-updated: 1726258663635
+updated: 1726410889719
 created: 1688744651985
 nav_order: 6
+vp:
+  ogdate: "2016-08-12"
 ---
 Birra in stile American Pale Ale, prodotta il 7 agosto 2016.
 
@@ -51,3 +53,7 @@ Complessivamente si può affermare che sia la migliore birra nel primo semestre 
 Miglioramenti futuri: la componente di malto va bene, forse attenuare leggermente la quantità di crystal per ottenerla più chiara. Aumentare le quantità a 100g totali di chinook (23lt) da ripartire nei giusti momenti per non alzare eccessivamente l’amaro ma aumentare la componente aromatica. Aumentare anche la quantità di tettnanger in dry hopping, magari prevedendo due batch dopo il travaso (uno con solo chinook e l’altro con anche tettnanger). Migliorare leggermente la torbidità della birra.
 
 ![image](./assets/images/palebluedot.jpg)
+
+## Logo originale
+
+![logo](./assets/images/2024-09-15-16-34-10.png)

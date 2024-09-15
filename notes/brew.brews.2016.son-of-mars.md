@@ -2,9 +2,11 @@
 id: 1e6aslc78ymsw0gh0omdxag
 title: The Son Of Mars
 desc: ''
-updated: 1726258826359
+updated: 1726411002765
 created: 1688744651985
 nav_order: 8
+vp:
+  ogdate: "2016-12-02"
 ---
 Birra al miele di castagno prodotta il 18 settembre 2016.
 
@@ -36,3 +38,7 @@ Questa birra al miele piaceva agli altri due "birrai" ma non a me. Per tempo ho 
 Nonostante questi errori è un tipo di birra che voglio rifare. Probabilmente caratterizzandola di più con un lievito e luppolo inglese, magari usando solo un malto speciale (via il monaco). Potrebbe essere classificabile Extra Special Bitter se si impiega del miele? Dopotutto gli stili sono solo basi di partenza...
 
 ![image](./assets/images/cottasonofmars.jpg)
+
+## Logo originale
+
+![logo](./assets/images/2024-09-15-16-36-34.png)

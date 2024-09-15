@@ -2,9 +2,11 @@
 id: ya0j865vu18mw30iswznmyb
 title: Blue Marble
 desc: ''
-updated: 1726258621044
+updated: 1726411059220
 created: 1688744651986
 nav_order: 9
+vp:
+  ogdate: "2017-12-09"
 ---
 American Pale Ale, cotta del 16 ottobre 2016.
 

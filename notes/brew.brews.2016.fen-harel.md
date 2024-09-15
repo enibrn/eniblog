@@ -2,9 +2,11 @@
 id: makrl8mtqu66xbzyc6ipm2x
 title: Fen'Harel
 desc: ''
-updated: 1726258663640
+updated: 1726411078769
 created: 1688744651987
 nav_order: 12
+vp:
+  ogdate: "2017-12-09"
 ---
 Saison brassata l'11 dicembre 2016.
 

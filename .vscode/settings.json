@@ -1,4 +1,7 @@
 {
+    "pasteImage.basePath": "${projectRoot}/notes",
+    "pasteImage.path": "${projectRoot}/notes/assets/images",
+    "pasteImage.prefix": "./",
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#6c7f90",
         "activityBar.background": "#6c7f90",
