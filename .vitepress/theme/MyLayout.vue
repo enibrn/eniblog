@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <template #doc-before>
+    <!-- <template #doc-before>
       <div class="vp-doc">
         <h1>
           {{ $frontmatter.title + ' ' }}
@@ -14,9 +14,11 @@
           />
         </h1>
       </div>
-    </template>
+    </template> -->
     <template #doc-after>
-      <Comments />
+      <pre><code>{{ $frontmatter }}</code></pre>
+      <span>$frontmatter.id</span>{{ frontmatter.title }}
+      <Comments :pageId="frontmatter.id"/>
     </template>
   </Layout>
 </template>

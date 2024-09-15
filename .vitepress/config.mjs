@@ -2,10 +2,12 @@ import { defineConfig } from 'vitepress';
 import { getItemsFromDendronNotes } from './dendron-utilities.mjs'
 import { SiteMetadataService } from './site-metadata-service.mjs'
 import markdownItWikilinksFn from "markdown-it-wikilinks";
+import addTitlePluginFn from './markdown-it-add-title.mjs';
 
 const siteMetadata = new SiteMetadataService(getItemsFromDendronNotes);
 
 export default defineConfig({
+  transformHtml: (code, id, { pageData }) => { return code.replace('Crystal', 'CRISTALLO')},
   title: "eniblog",
   base: '/eniblog/',
   description: "enib + (b)log = eniblog",
@@ -28,22 +30,12 @@ export default defineConfig({
         postProcessLabel: (label) => siteMetadata.linksVocabulary[label] ?? label
       };
       md.use(markdownItWikilinksFn(options));
+      md.use(addTitlePluginFn);
     }
   },
-  transformPageData: (pageData, { siteConfig }) => {
-    if (pageData.frontmatter['layout'] === 'home') {
-      //dinamically add cards to homepage by editing its frontmatter
-      pageData.frontmatter['features'] = siteMetadata.homeCards;
-    } else { //only 2 types of pages in the website, homepage or page
-      // add an ID in the head's og:title for an immutable reference to the page for giscus
-      pageData.frontmatter.head ??= [];
-      pageData.frontmatter.head.push([
-        'meta',
-        {
-          name: 'og:title',
-          content: pageData.frontmatter['id']
-        }
-      ]);
-    }
+  transformPageData: (pageData) => {
+    if (pageData.frontmatter['layout'] !== 'home') return;
+    //dinamically add cards to homepage by editing its frontmatter
+    pageData.frontmatter['features'] = siteMetadata.homeCards;
   }
 });

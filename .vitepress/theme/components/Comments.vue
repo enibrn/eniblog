@@ -1,6 +1,7 @@
 <template>
+  <span>pageId</span>{{ pageId }}
   <div
-    :key="frontmatter.id"
+    :key="pageId"
     class="giscus"
   >
     <component
@@ -11,7 +12,7 @@
       data-category="Announcements"
       data-category-id="DIC_kwDOMrSLXM4CieOq"
       data-mapping="specific"
-      :data-term="frontmatter.id"
+      :data-term="giscusPageId"
       data-strict="1"
       data-reactions-enabled="1"
       data-emit-metadata="0"
@@ -25,6 +26,17 @@
 </template>
 
 <script setup>
-import { useData } from 'vitepress';
-const { frontmatter } = useData();
+import { defineProps, computed } from 'vue';
+
+const props = defineProps({
+  pageId: {
+    type: String,
+    required: true
+  }
+});
+
+const giscusPageId = computed(() => {
+  const suffix = window.location.hostname === 'localhost' ? '_dev' : '';
+  return props.pageId + suffix;
+});
 </script>
