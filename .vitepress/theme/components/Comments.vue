@@ -37,7 +37,9 @@ const props = defineProps({
 
 //discussions are separated between the published and development versions
 const giscusPageId = computed(() => {
-  const suffix = window?.location?.hostname === 'localhost' ? '_dev' : '';
+  //TODO better to use an env variable
+  const isLocal = typeof window !== 'undefined' && window.location.hostname === 'localhost';
+  const suffix = isLocal ? '_dev' : '';
   return props.pageId + suffix;
 });
 </script>
