@@ -19,6 +19,7 @@ export default defineConfig({
     sidebar: siteMetadata.sidebar,
     search: {
       provider: 'local',
+      //italian labels
       options: {
         translations: {
           button: {
@@ -51,11 +52,15 @@ export default defineConfig({
               searchByText: 'Ricerca per'
             },
             noResultsScreen: {
-              noResultsText: 'Impossibile trovare risultati', //seems not working
+              noResultsText: 'Impossibile trovare risultati',
               suggestedQueryText: 'Puoi provare una nuova ricerca',
               reportMissingResultsText: 'Dovrebbero esserci risultati per questa query?',
               reportMissingResultsLinkText: 'Clicca per inviare feedback'
-            }
+            },
+            displayDetails: 'Mostra lista dettagliata',
+            resetButtonTitle: 'Pulisci ricerca',
+            backButtonTitle: 'Chiudi ricerca',
+            noResultsText: 'Impossibile trovare risultati',
           }
         }
       }
