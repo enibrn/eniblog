@@ -2,8 +2,11 @@
 id: 4z5mt1kkv7i4vmv5w5qfu4j
 title: Hoppy Tripel
 desc: ''
-updated: 1688744651987
+updated: 1726600389460
 created: 1688744651987
+nav_order: 2
+vp:
+  ogdate: "2017-12-14"
 ---
 Tripel prodotta il 24 gennaio 2017.
 

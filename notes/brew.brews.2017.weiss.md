@@ -2,8 +2,11 @@
 id: qxwyvjuvj3il0119uhiwkca
 title: Weiss
 desc: ''
-updated: 1688744651989
+updated: 1726600389452
 created: 1688744651989
+nav_order: 7
+vp:
+  ogdate: "2017-12-14"
 ---
 Weiss prodotta nell'agosto 2017.
 

@@ -2,8 +2,11 @@
 id: a7dpeb95ugkxx1rou2xk7o7
 title: Robust Porter
 desc: ''
-updated: 1688744651989
+updated: 1726600389453
 created: 1688744651989
+nav_order: 6
+vp:
+  ogdate: "2017-12-14"
 ---
 Robust Porter prodotta il 9 luglio 2017.
 

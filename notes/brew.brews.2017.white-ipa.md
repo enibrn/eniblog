@@ -2,8 +2,11 @@
 id: 1np8pbzcjginag6xaj7wb93
 title: White IPA
 desc: ''
-updated: 1688744651988
+updated: 1726600389455
 created: 1688744651988
+nav_order: 5
+vp:
+  ogdate: "2017-12-14"
 ---
 White IPA prodotta l'11 giugno 2017.
 
