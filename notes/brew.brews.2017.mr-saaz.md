@@ -2,7 +2,7 @@
 id: hxshmlnf0e3tiypmw398xzz
 title: Mr Saaz
 desc: ''
-updated: 1726605394258
+updated: 1726607370283
 created: 1688744651988
 nav_order: 3
 vp:
@@ -34,4 +34,4 @@ Mangrove Jack's Bohemian Lager M84
 
 Come la lager precedente questa subì un trattamento simile che la rese ossidata, leggermente acida (forse infezione portata dentro con uno dei travasi) e imbevibile. Data la mia poca fortuna con le basse fermentazioni ho sospeso questo tipo di birre. Ci riproverò quando la costanza sarà migliore.
 
-![image](./assets/images/macinaturamrsaaz.jpg)
+![image](./assets/images/macinaturaMrSaaz.jpg)
