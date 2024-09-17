@@ -2,13 +2,13 @@
 id: en27woj9huzznj9ecm1nxd8
 title: Amber Things
 desc: ''
-updated: 1726605394272
+updated: 1726607229531
 created: 1688744651989
 nav_order: 9
 vp:
   ogdate: "2017-12-14"
 ---
-A partire da quello che avevo in casa (molto crystal) e da tutto questo luppolo autocoltivato ho deciso di prendere un bel sacco di pale da 25kg e buttare giù qualche idea. Ne sono nate due amber ale (quasi una evoluzione della [american pale ale](/pale-blue-dot) “sbagliata ma buona” del 2016).
+A partire da quello che avevo in casa (molto crystal) e da tutto questo luppolo autocoltivato ho deciso di prendere un bel sacco di pale da 25kg e buttare giù qualche idea. Ne sono nate due amber ale (quasi una evoluzione della [[brew.brews.2016.pale-blue-dot]] “sbagliata ma buona” del 2016).
 
 ![cotta amber ale](./assets/images/cottaamberale.jpg)
 
