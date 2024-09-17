@@ -2,7 +2,7 @@
 id: a7dpeb95ugkxx1rou2xk7o7
 title: Robust Porter
 desc: ''
-updated: 1726607451574
+updated: 1726610083669
 created: 1688744651989
 nav_order: 6
 vp:
@@ -10,7 +10,7 @@ vp:
 ---
 Robust Porter prodotta il 9 luglio 2017.
 
-### Fermentabili
+## Fermentabili
 
 | Tipologia         | Peso   |
 |-------------------|--------|
@@ -21,20 +21,20 @@ Robust Porter prodotta il 9 luglio 2017.
 | Crystal           | 300 gr |
 | Zucchero Demerara | 500g   |
 
-### Luppoli
+## Luppoli
 
 | Varietà              | Tempo  | Amaro   | Quantità |
 |----------------------|--------|---------|----------|
 | Hallertauer Herkules | 60 min | 40 IBU  | -        |
 
-### Lieviti
+## Lieviti
 
 | Variante               | Nome                                       |
 |------------------------|--------------------------------------------|
 | Fermentatore (10,5 lt) | Fermentis Safale US-05                     |
 | Dama (4,5 lt)          | White Labs WLP645 Brettanomyces Claussenii |
 
-### Commenti
+## Commenti
 
 La ricetta è molto simile alla [Self Assembly Pope](https://brewdogrecipes.com/recipes/self-assembly-pope) di Brewdog, con la differenza dei lieviti e leggermente le percentuali dei malti.
 

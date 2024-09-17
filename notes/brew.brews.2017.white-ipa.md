@@ -2,7 +2,7 @@
 id: 1np8pbzcjginag6xaj7wb93
 title: White IPA
 desc: ''
-updated: 1726605394252
+updated: 1726610078887
 created: 1688744651988
 nav_order: 5
 vp:
@@ -10,7 +10,7 @@ vp:
 ---
 White IPA prodotta l'11 giugno 2017.
 
-### Fermentabili
+## Fermentabili
 
 | Tipologia           | Peso   |
 |---------------------|--------|
@@ -19,7 +19,7 @@ White IPA prodotta l'11 giugno 2017.
 | Fiocchi di frumento | 400 gr |
 | Fiocchi d'avena     | 100 gr |
 
-### Luppoli
+## Luppoli
 
 | Varietà              | Tempo  | Amaro   | Quantità |
 |----------------------|--------|---------|----------|
@@ -27,11 +27,11 @@ White IPA prodotta l'11 giugno 2017.
 | Saaz                 | 0 min  | -       | 2,5 g/l  |
 | Saaz                 | DH     | -       | 2,5 g/l  |
 
-### Lievito
+## Lievito
 
 Fermentis Safbrew S-33
 
-### Commenti
+## Commenti
 
 La birra venne discretamente bene, piuttosto beverina (ottenni una bella attenuazione nonostante l's33). Sulle ultime bottiglie ho riscontrato un po' di gushing e lievissima acidità.
 

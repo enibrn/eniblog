@@ -2,29 +2,36 @@
 id: d844geoyzud0uzfd5g03z83
 title: Trap
 desc: ''
-updated: 1688744651990
+updated: 1726610099662
 created: 1688744651990
+nav_order: 1
+vp:
+  ogdate: "2019-01-26"
 ---
 Prima birra del 2018 una Belgian Pale Ale prodotta l'8 luglio.
 
 Il 2018 è stato l'anno in cui sono ripartito da solo e ho fatto solo quattro birre nella seconda metà dell'anno. Nonostante le rogne all'impianto mi ritengo più che soddisfatto dai risultati, buone birre, migliorabili in vari aspetti ma perfettamente bevibili (a conferma di ciò sono le scarse giacenze nel 2019).
 
-### Fermentabili
+## Fermentabili
+
 | Tipologia      | Percentuale |
 |----------------|-------------|
 | Malto Pale     | 94%         |
 | Malto Cara Red | 6%          |
 
-### Luppoli
+## Luppoli
+
 | Varietà                | Tempo  | Amaro   | Quantità |
 |------------------------|--------|---------|----------|
 | Comet                  | 60 min | 15 IBU  | -        |
 | Yeoman (autocoltivato) | 5 min  | -       | 3 g/l    |
 
-### Lievito
+## Lievito
+
 Lallemand Abbaye
 
-### Log
+## Log
+
 | Misura                | Valore       | Quando                   |
 |-----------------------|--------------|--------------------------|
 | Litri in fermentatore | 9,5/10 litri | Dopo la cotta            |
@@ -34,7 +41,8 @@ Lallemand Abbaye
 | Imbottigliamento      | -            | 21/07/2018               |
 | Priming               | 5,8 g/l      | -                        |
 
-### Impressioni
+## Impressioni
+
 Schiuma generosa ma evanescente, ottima beva (ad agosto era essenziale), forse un po' watery per via della carbonazione non troppo alta (devo aggiustare il tiro col corn sugar) o delle reali temperature di mash più basse vista la mancanza di ricircolo.
 
 Luppolo poco pervenuto in aroma, strano visto che era stato raccolto poco prima della cotta, si trattava probabilmente di luppolo troppo prematuro e con poche resine viste le eccezionali temperature della primavera scorsa (infatti poi è rifiorito a settembre).
@@ -45,5 +53,3 @@ L'aleatorietà degli IBU finali è proprio il motivo per cui uso il mio luppolo 
 Il profilo del lievito l'ho trovato convincente, tipico belga quindi leggermente fenolico e fruttato ma non maleducato da saison (no rusticità eccessiva).
 
 ![trap](./assets/images/trap.jpg)
-
-

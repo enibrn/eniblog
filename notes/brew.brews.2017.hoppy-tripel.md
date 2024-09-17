@@ -2,7 +2,7 @@
 id: 4z5mt1kkv7i4vmv5w5qfu4j
 title: Hoppy Tripel
 desc: ''
-updated: 1726607401341
+updated: 1726610060830
 created: 1688744651987
 nav_order: 2
 vp:
@@ -10,7 +10,7 @@ vp:
 ---
 Tripel prodotta il 24 gennaio 2017.
 
-### Fermentabili
+## Fermentabili
 
 | Tipologia               | Percentuale |
 |-------------------------|-------------|
@@ -19,7 +19,7 @@ Tripel prodotta il 24 gennaio 2017.
 | Zucchero candito chiaro | 7%          |
 | Miele                   | 3%          |
 
-### Luppoli
+## Luppoli
 
 | Varietà            | Tempo  | Amaro   | Quantità |
 |--------------------|--------|---------|----------|
@@ -30,11 +30,11 @@ Tripel prodotta il 24 gennaio 2017.
 | Saaz               | 5 min  | 1,8 IBU | 2 g/l    |
 | Saaz               | DH     | -       | 2 g/l    |
 
-### Lievito
+## Lievito
 
 Mangrove Jack's Belgian Tripel M31
 
-### Commenti
+## Commenti
 
 Stranamente gli stili belgi difficili da padroneggiare come questa tripel e la saison di fine 2016 vennero decisamente sopra la media.
 
