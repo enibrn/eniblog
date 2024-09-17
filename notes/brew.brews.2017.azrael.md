@@ -2,7 +2,7 @@
 id: 4eb4pnhclmndufsowts9mac
 title: Azrael
 desc: ''
-updated: 1726600309305
+updated: 1726603639801
 created: 1688744651987
 nav_order: 1
 vp:
@@ -11,6 +11,7 @@ vp:
 Amber lager brassata il 9 gennaio 2017.
 
 ### Fermentabili
+
 | Tipologia                  | Percentuale |
 |----------------------------|-------------|
 | Malto Pilsner              | 40%         |
@@ -21,6 +22,7 @@ Amber lager brassata il 9 gennaio 2017.
 | Miele                      | 3%          |
 
 ### Luppoli
+
 | Varietà            | Tempo  | Amaro   | Quantità |
 |--------------------|--------|---------|----------|
 | Hallertauer Magnum | 60 min | 31 IBU  | -        |
@@ -28,15 +30,15 @@ Amber lager brassata il 9 gennaio 2017.
 | Styrian Goldings   | 5 min  | 0,6 IBU | 1,5 g/l  |
 
 ### Lievito
+
 Fermentis Saflager S-23
 
 ### Commenti
+
 Questo rappresentò il primo tentativo di fare una lager leggermente ambrata. La cotta andò bene (il grist esageratamente complesso era dovuto a varie cose da finire), la fermentazione un po' meno (fermentò circa a 15°, senza dyacetil rest) mentre dopo feci un casino che la rovinò.
 
-Infatti dovetti spostare la birra con la macchina dopo la fermentazione (e travaso) in un frigorifero in un'altra casa e dopo circa 3 settimane travasai due volte (perché imbottigliai insieme ad un'altra e avevo bisogno di fermentatori liberi). 
+Infatti dovetti spostare la birra con la macchina dopo la fermentazione (e travaso) in un frigorifero in un'altra casa e dopo circa 3 settimane travasai due volte (perché imbottigliai insieme ad un'altra e avevo bisogno di fermentatori liberi).
 
 Venne una birra molto ossidata dal sapore metallico. Da rifare con grist ragionato e W34/70.
 
 ![image](./assets/images/cottaAzrael.jpg)
-
-
