@@ -2,7 +2,7 @@
 id: 4z5mt1kkv7i4vmv5w5qfu4j
 title: Hoppy Tripel
 desc: ''
-updated: 1726603643878
+updated: 1726605394261
 created: 1688744651987
 nav_order: 2
 vp:
@@ -45,4 +45,4 @@ Le ultime bottiglie bevute dopo 6 mesi raggiunsero un grande equilibrio e risult
 
 Da riprovare sicuramente, magari con il liquido White Labs WLP530 o Wyeast 3787 che sembrano essere il ceppo Westmalle.
 
-![image](./assets/images/hoppyTripel.jpg)
+![image](./assets/images/hoppytripel.jpg)

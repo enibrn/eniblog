@@ -2,7 +2,7 @@
 id: 1np8pbzcjginag6xaj7wb93
 title: White IPA
 desc: ''
-updated: 1726603655066
+updated: 1726605394252
 created: 1688744651988
 nav_order: 5
 vp:
@@ -37,4 +37,4 @@ La birra venne discretamente bene, piuttosto beverina (ottenni una bella attenua
 
 Definirla white IPA forse è eccessivo, è più una blanche luppolata.
 
-![image](./assets/images/cottaWhiteIPA.jpg)
+![image](./assets/images/cottawhiteipa.jpg)

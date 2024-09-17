@@ -2,7 +2,7 @@
 id: en27woj9huzznj9ecm1nxd8
 title: Amber Things
 desc: ''
-updated: 1726603669436
+updated: 1726605394272
 created: 1688744651989
 nav_order: 9
 vp:
@@ -10,7 +10,7 @@ vp:
 ---
 A partire da quello che avevo in casa (molto crystal) e da tutto questo luppolo autocoltivato ho deciso di prendere un bel sacco di pale da 25kg e buttare giù qualche idea. Ne sono nate due amber ale (quasi una evoluzione della [american pale ale](/pale-blue-dot) “sbagliata ma buona” del 2016).
 
-![cotta amber ale](./assets/images/cottaAmberAle.jpg)
+![cotta amber ale](./assets/images/cottaamberale.jpg)
 
 Rispetto a quest’ultima ha 100 grammi di pale in meno, 50g di crystal in più e un malto speciale che mi ispirava, 300g di special b. So che è più indicato per gli stili belgi scuri come BSDA, quad e dubbel ma leggevo in rete che è usato anche nella arrogant bastard di stone (una amber ale molto luppolata) e quindi perché no.
 

@@ -2,7 +2,7 @@
 id: 4eb4pnhclmndufsowts9mac
 title: Azrael
 desc: ''
-updated: 1726603639801
+updated: 1726605394268
 created: 1688744651987
 nav_order: 1
 vp:
@@ -41,4 +41,4 @@ Infatti dovetti spostare la birra con la macchina dopo la fermentazione (e trava
 
 Venne una birra molto ossidata dal sapore metallico. Da rifare con grist ragionato e W34/70.
 
-![image](./assets/images/cottaAzrael.jpg)
+![image](./assets/images/cottaazrael.jpg)

@@ -2,7 +2,7 @@
 id: gm1w67qnxaa44ql7hyrvkzj
 title: Dub
 desc: ''
-updated: 1726603652006
+updated: 1726605394264
 created: 1688744651988
 nav_order: 4
 vp:
@@ -38,4 +38,4 @@ Fermentis Safbrew T-58
 Non preoccupatevi per il grist, è così inutilmente complesso perché avevo molti malti speciali da finire. Per il resto sebbene mi sembrava quadrare come ricetta, la cotta si infettò quindi è ingiudicabile.
 Il motivo dell'infezione è probabilmente da ricondurre al fermentatore con fondo graffato e non saldato, non più utilizzato da allora.
 
-![image](./assets/images/cottaDub.jpg)
+![image](./assets/images/cottadub.jpg)
