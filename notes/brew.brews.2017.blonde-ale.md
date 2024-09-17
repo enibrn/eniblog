@@ -2,8 +2,11 @@
 id: aqruwu9j3it4evgb0v6hjns
 title: Blonde Ale
 desc: ''
-updated: 1708293560935
+updated: 1726600389450
 created: 1688744651989
+nav_order: 8
+vp:
+  ogdate: "2017-12-14"
 ---
 Blonde Ale brassata il 29 ottobre 2017
 
