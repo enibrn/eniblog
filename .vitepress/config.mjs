@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress';
-import { getItemsFromDendronNotes } from './dendron-utilities.mjs'
+import { getItemsFromDendronNotes2 } from './dendron-utilities.mjs'
 import { SiteMetadataService } from './site-metadata-service.mjs'
 import markdownItWikilinksFn from "markdown-it-wikilinks";
 import mditCustomPluginFn from './mdit-custom-plugin.mjs';
 
-const siteMetadata = new SiteMetadataService(getItemsFromDendronNotes);
+const siteMetadata = new SiteMetadataService(getItemsFromDendronNotes2);
 
 export default defineConfig({
   title: "eniblog",
