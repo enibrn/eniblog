@@ -2,12 +2,16 @@
 id: 3ty629gzxplahedzjgg94x9
 title: Iga
 desc: ''
-updated: 1688744651994
+updated: 1726692122624
 created: 1688744651994
+nav_order: 4
+vp:
+  ogdate: "2019-06-22"
 ---
 Primo reciclo dell'hornidal kveik, stavolta con base diversa e aggiunta di sapa in bollitura.
 
-### Fermentabili
+## Fermentabili
+
 | Tipologia          | Percentuale |
 |--------------------|-------------|
 | Malto Pilsner      | 65%         |
@@ -17,26 +21,30 @@ Primo reciclo dell'hornidal kveik, stavolta con base diversa e aggiunta di sapa 
 | Malto Special B    | 4%          |
 | Sapa di uva bianca | 4%          |
 
-### Luppoli
+## Luppoli
+
 | Varietà              | Tempo  | Amaro   | Quantità |
 |----------------------|--------|---------|----------|
 | Comet                | 60 min | 30 IBU  | -        |
 
-### Lievito
+## Lievito
+
 Fermentis Safale US-05
 
-### Cotta
+## Cotta
+
 La cotta è filata senza particolari impedimenti. Non ho però usato il cappotto termico fatto in materiale plastico coibentante e ci ha messo 30 minuti per arrivare in bollitura dai 66° del mash.
 
 Ho avuto però qualche problema con densimetro e rifrattometro in preboil. Se il primo mi misurava 11,5/12 brix ovverò circa 1048, il campione nel densimetro (preso dal gocciolamento del cestello in un secchio dopo averlo tolto), a temperatura ambiente, segnava 1058. L'OG finale era di solo 1052, nostante gli zuccheri apportati dal mosto. Ho avuto quindi un'efficenza ridicola, che non calcolo nemmeno.
 
 ![cottaIga](./assets/images/cottaIga.jpg)
 
-### Impressioni
+## Impressioni
+
 Ho imbottigliato questa cotta domenica 30 producendo 14 bottiglie da 75cl e un fustino da 2 litri. Quando assaggiai la birra piatta prima dell'imbottigliamento avvertì un brivido lungo la schiena. Se al naso sentivo un ottimo aroma fruttato, quasi tropicale in bocca sentì un amaro sgraziato seguito da una netta nota metallica che definirei quasi ematica.
 
 Flashback traumatici del 2017, lager metalliche e imbevibili.  
-Ci siamo, si è infettata, *buttatutto*. 
+Ci siamo, si è infettata, *buttatutto*.
 
 Ho comunque imbottigliato con qualche paranoia, con la vaga speranza che il bruco si tramutasse in farfalla.
 Ho aperto la prima bottiglia mercoledì 10, con una remota speranza che l'assaggio dal fermentatore venne falsato dai *raggi cosmici*.  
@@ -56,5 +64,3 @@ Ovviamente seguiranno maggiori assaggi per valutarne l'evoluzione nel tempo. Spe
 Dopo quasi un anno dalla cotta la dolcezza si è via via persa ed era più secca e beverina. Questo non è dovuto da un cambiamento di densità (è sempre stata in frigo) ma da una perdita dell'aroma fresco e fruttato. Mi sembrava virare di più sul vinoso che sul miele come nei primi assaggi. La preferivo fresca tuttavia la lunga maturazione a freddo le ha fatto acquisire un aspetto molto più limpido.
 
 ![iga](./assets/images/iga2.jpg)
-
-

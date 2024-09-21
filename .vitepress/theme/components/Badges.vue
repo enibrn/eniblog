@@ -44,6 +44,6 @@ const createdDateString = computed(() => `Creato il ${formatTs(props.createdTime
 const updatedDateString = computed(() => `Aggiornato il ${formatTs(props.updatedTimestamp)}`);
 
 const formatDate = (dts) => new Date(dts).toLocaleDateString("it-IT", options);
-const ogDateString = computed(() => `Originariamente creato il ${formatDate(props.ogDate)}`);
+const ogDateString = computed(() => `Originariamente pubblicato il ${formatDate(props.ogDate)}`);
 
 </script>

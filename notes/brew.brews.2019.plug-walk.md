@@ -2,28 +2,35 @@
 id: x8v2wt08rq9q08f7vsdf6kj
 title: Plug Walk
 desc: ''
-updated: 1688744651993
+updated: 1726691905848
 created: 1688744651993
+nav_order: 1
+vp:
+  ogdate: "2019-02-10"
 ---
 Prima cotta dell'anno 2019, proprio il primo gennaio. Pale Ale ben luppolata con luppolo autocoltivato.
 
-### Fermentabili
+## Fermentabili
+
 | Tipologia      | Percentuale |
 |----------------|-------------|
 | Malto Pale     | 94%         |
 | Malto Cara Red | 6%          |
 
-### Luppoli
+## Luppoli
+
 | Varietà                         | Tempo  | Amaro    | Quantità |
 |---------------------------------|--------|----------|----------|
 | Hallertau Mittelfruh            | 60 min | 23 IBU   | -        |
 | Cascade/comet (autocoltivato)   | 5 min  | -        | 6,66 g/l |
 | Cascade/comet (autocoltivato)   | DH     | -        | 6,66 g/l |
 
-### Lievito
+## Lievito
+
 Fermentis Safale US-05
 
-### Acqua
+## Acqua
+
 Per la quantità ho usato 4,8lt/kg direttamente in mash (ho preso l'all-in-one per semplificarmi la vita e lo sparge lo evito volentieri). Perché questo valore?  
 Nel mio caso facevano 24 litri esatti, ossia due pacchi di confezioni d'acqua 6x2litri. Tutto per massimizzare il pragmatismo.
 
@@ -43,7 +50,8 @@ I valori finali dell'acqua quindi sono:
 | Solfati         | 71   |
 | Cloruri/Solfati | 1,16 |
 
-### Assorbimento del mash
+## Assorbimento del mash
+
 Mi sono procurato una riga in inox per poter misurare l'altezza del livello del liquido per poter recuperare poi i litri.  
 Mi sono accorto subito che i 24 litri dell'acqua sono arrivati alla tacca dei 25 litri in pentola mentre la riga misurava 25,5 cm.  
 Facendo un breve calcolo per trovare il volume di un cilindro (dato il diametro della pentola che è 35 cm) con quella altezza otterrei un volume di 24,52 litri.  
@@ -53,7 +61,8 @@ Il livello misurato del preboil era 22,5 litri che darebbero un volume di 21,11 
 Siccome occorre tenere contro della contrazione termica (da 20° a 78° qui dice essere di circa 2,6%, nel mio caso partivo da 13/15 gradi ma tengo questa come riferimento) quindi bisogna toglierci anche quella quota di vapore e otteniamo circa 20,57 lt di preboil (non considero per semplicità il mosto dentro il ricircolo).  
 Quei 3,43 litri sono stati assorbiti dai 5kg di grani lt/kg quindi, approssimando, ho ottenuto un assorbimento di 0,7lt/kg.  
 
-### Efficenza dell'impianto
+## Efficenza dell'impianto
+
 Diamo una breve occhiata anche all'efficienza teorica dell'ammostamento attraverso questa formula:
 
 | Misura         | Valore   |
@@ -68,7 +77,8 @@ Diamo una breve occhiata anche all'efficienza teorica dell'ammostamento attraver
 L'efficienza così bassa può essere dovuto al malto aperto già da un anno (seppur conservato bene), all'assenza di sparge e al ph un po' troppo alto.  
 In ogni caso per me non è un problema visto che mi ritrovo fin troppe materie prime (per fortuna molti grani scadono nel 2020 inoltrato).
 
-### Fermentazione
+## Fermentazione
+
 Sono partito a 18 gradi per tre giorni, 20 per altri tre giorni, 22 per 4 giorni insieme al dryhopping e poi winterizzazione di una settimana.
 
 ![fermentatore](./assets/images/fermentatore.jpg)
@@ -86,14 +96,16 @@ Qua un log documentato grazie al tilt, un comodo aggeggio per monitorare la dens
 
 Il lievito si è quindi mangiato circa 10 punti di densità i primi giorni per poi rallentare alla fine e assestarsi sul 1009.
 
-### Dry Hopping
+## Dry Hopping
+
 Il dry hopping è avvenuto con 100g di comet.  
 Ho proceduto a bollire in acqua la hop bag insieme a un peso in inox (un raccordo T) e ho sanitizzato il luppolo con [questo metodo](https://www.lab4beer.it/2018/10/30/contaminazione-materie-prime-luppolo/?fbclid=IwAR22wmc33G9XKc3YYb3DtGp1MCuRtOz5HWNbUb95sC1Svjwkj4fg6blILYU) per essere più sicuro contro eventuali contaminanti sopravvissuti in freezer.
 
 Nonostante il peso in inox la sacca galleggiava sul mosto, solo al momento dell'imbottigliamento ho visto che era scesa fino a oltre metà.  
 100 grammi di fiori occupano veramente tanto volume, quanto vorrei poter pellettizzarli per conservarli in poco spazio, rendere più agevole l'utilizzo e diminuire l'assorbimento di mosto. Il ph finale si è attestato a 4,8.
 
-### Imbottigliamento
+## Imbottigliamento
+
 Ho staccato il frigor qualche giorno prima di imbottigliare, il 22 gennaio.  
 Ho imbottigliato due fustini da 2 litri e 9 bottiglie da 75 litri per un totale di 10,75 litri a fronte di circa 15 litri in fermentatore.  
 Come già successo nella golden ale del 2018 il dryhopping ha assorbito come una spugna.
@@ -105,7 +117,8 @@ Il lievito si è compattato bene sul fondo lasciando qualche litro sotto al rubi
 Solo all'apertura di quest'ultimo ho notato per un istante del mosto più torbido.  
 Il tilt e la hop back non hanno smosso il lievito quando hanno toccato il fondo e anche le ultime bottiglie sono rimaste limpide.
 
-### Impressioni
+## Impressioni
+
 Il primo assaggio è avvenuto domenica 3 febbraio, spillando dal primo fusto.  
 La birra è limpida, solo leggermente più velata della vienna ale del 2018 mentre il colore è più carico e tendente all'arancio.
 
@@ -121,5 +134,3 @@ Il comet si conferma uno dei migliori luppoli del mio "luppoleto" insieme al chi
 
 Per il futuro dovrei solo trovare il modo per rendere ancora più esplosivo l'aroma (DDH? qualche sistema di ricircolo?) e aumentare il priming (ma prima devo anche valutare una versione in bottiglia).  
 Il sogno ultimo è ovviamente arrivare a carbonare in unitank, quasi obbligatorio per raggiungere gli standard dei (migliori) birrifici artigianali. La scimmia del fermentasaurus prima o poi sarà incontenibile 🙈
-
-
