@@ -2,33 +2,44 @@
 id: wwc8xw9gm17ffnk07z63hbd
 title: Ghost Ipa
 desc: ''
-updated: 1726909814130
+updated: 1727001895479
 created: 1726869453237
+nav_order: 7
 ---
-Ipa prodotta il 20 novembre 2021.
+"Quasi smash" IPA prodotta il 20 novembre 2021.
 
-- 
-lt mash :	20
-lt sparge:	10
-Litri in pentola :	26
-OG preboil:	1040
-Min bollitura:	60
-Litri in fermentatore :	23
-Efficienza :	70 %
-OG :	1046
-ABV :	4.6 %
-Plato :	11.5
-IBU :	25.7
-BU/GU :	0.56
+## Dati Principali
 
-Malti e Fermentabili
-Viking RED ACTIVE	Grani	5000 gr	100 %
-Totale		5000 gr	
+| **Parametro** | **Valore** |
+| ------------- | ---------- |
+| OG            | 1046       |
+| ABV           | 4.6 %      |
+| Plato         | 11.5       |
+| IBU           | 25.7       |
+| BU/GU         | 0.56       |
 
-Luppoli
-Target (AA 9)	15 gr	60 min	Pellet
-Comet (AA 7)	20 gr	15 min	Plug
-Comet (AA 7)	30 gr	5 min	Plug
-Buccia Bergamotto (AA 0)	30 gr	5 min	Plug
-Totale	95 gr	60 Min	 
+## Malti e Fermentabili
 
+| **Ingrediente**   | **Tipo** | **Quantità** | **Percentuale** |
+| ----------------- | -------- | ------------ | --------------- |
+| Viking RED ACTIVE | Grani    | 5000 gr      | 100 %           |
+| **Totale**        |          | 5000 gr      |                 |
+
+## Luppoli
+
+| **Luppolo**   | **Quantità** | **Tempo** | **Forma** |
+| ------------- | ------------ | --------- | --------- |
+| Target (AA 9) | 15 gr        | 60 min    | Pellet    |
+| Comet (AA 7)  | 20 gr        | 15 min    | Plug      |
+| Comet (AA 7)  | 30 gr        | 5 min     | Plug      |
+
+## Lievito
+
+Lievito secco Mangrove French Saison
+
+## Considerazioni
+
+Questa ricetta risulta scarsamente documentata così come l'assaggio.
+
+L'unica cosa che ricordo è il fatto di aver utilizzato luppolo comet NON autocoltivato, rendendo difficile la pulizia del braumeister.
+Fu un tentativo di capire se il problema di ossidazione nella birra finita fosse del mio comet o comune a tutti quelli in pellet (quindi un problema di processo). Bhe, non mi sono appuntato da nessuna parte il risultato 🤦
