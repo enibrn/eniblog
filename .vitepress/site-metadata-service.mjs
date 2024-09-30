@@ -42,13 +42,27 @@ export class SiteMetadataService {
       //from now on I will traverse from the side item, to manage sidebar and leaf data
       const sidebarItems = [];
       childItems.forEach(childItem => {
-        sidebarItems.push(this.#traverseAfterSideItem(childItem, item.key));
+        sidebarItems.push(this.#traverseAfterSideItem(childItem, item.key, item.side['link-to-last-note']));
       });
       this.sidebar[item.key] = sidebarItems;
 
       //the nav link goes to the proper preselected "leaf" page
       const sidebarLeafLink = this.#sidebarLeafLinks[item.key];
       result.link = sidebarLeafLink;
+
+      if (item.side['groups_collapsed']) {
+        const childItemToExpandKey = childItems
+          .map(x => x.key)
+          .find(x => sidebarLeafLink.startsWith('/' + x + '.'));
+
+          for (let sidebarItem of sidebarItems) {
+            if (sidebarItem.key === childItemToExpandKey) {
+              sidebarItem.collapsed = false;
+            } else {
+              sidebarItem.collapsed = true;
+            }
+          }
+      }
     } else {
       result.items = [];
       childItems.forEach(childItem => {
@@ -59,9 +73,9 @@ export class SiteMetadataService {
     return result;
   }
 
-  #traverseAfterSideItem(item, navKey) {
+  #traverseAfterSideItem(item, navKey, linkToLastNote) {
     const childItems = this.#getChildsOrdered(item);
-    const result = { text: item.title };
+    const result = { key: item.key, text: item.title };
 
     if (childItems.length == 0) { // is a leaf item, therefore a page
       result.link = '/' + item.key; //vitepress needs / before links
@@ -69,14 +83,15 @@ export class SiteMetadataService {
       this.#leafItems.push({ ...item, link: result.link });
 
       // the fist note as entry point of the sidebar is the default behaviour
-      // to override set the prop linkToLastNote
-      if (item.linkToLastNote || !this.#sidebarLeafLinks[navKey])
+      // to get the opposite behaviour (last note as entry point), set the link-to-last-note prop on side
+      if (linkToLastNote || !this.#sidebarLeafLinks[navKey])
         this.#sidebarLeafLinks[navKey] = result.link;
 
     } else {
       result.items = [];
       childItems.forEach(childItem => {
-        result.items.push(this.#traverseAfterSideItem(childItem, navKey));
+        //const groupsCollapsedChild = false; //groups can be collapsed only on first level of sidebar
+        result.items.push(this.#traverseAfterSideItem(childItem, navKey, linkToLastNote));
       });
     }
 
