@@ -17,14 +17,13 @@ export function getItemsFromDendronNotes() {
       //custom props for vitepress
       side: itemData.vp?.side,
       //calculated props
-      nav_order: itemData.nav_order ?? 999,
+      order: itemData.nav_order ?? 999,
       level: key.split('.').length,
       createdDate: new Date(itemData.created),
       updatedDate: new Date(itemData.updated),
     };
   });
 }
-
 
 /* not dependent from .dendron.cache.json anymore:
  * - no need to include that in git (changes everytime)
@@ -53,7 +52,7 @@ export function getItemsFromDendronNotes2() {
         linkToLastNote: data.vp?.linkToLastNote ?? false, //not tested
         //ogdateString: data.vp?.ogdate, //not needed for metadata
         //calculated props
-        nav_order: data.nav_order ?? 999,
+        order: data.nav_order ?? 999,
         level: key.split('.').length,
         createdDate: new Date(data.created),
         updatedDate: new Date(data.updated),

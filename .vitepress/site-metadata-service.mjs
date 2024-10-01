@@ -27,7 +27,7 @@ export class SiteMetadataService {
   #traverseItemsHierarchically() {
     const highestItemsOrdered = this.#items
       .filter(x => x.level === 1)
-      .sort((a, b) => a.nav_order - b.nav_order);
+      .sort((a, b) => a.order - b.order);
 
     highestItemsOrdered.forEach(item => {
       this.nav.push(this.#traverseUntilSideItem(item));
@@ -42,7 +42,7 @@ export class SiteMetadataService {
       //from now on I will traverse from the side item, to manage sidebar and leaf data
       const sidebarItems = [];
       childItems.forEach(childItem => {
-        sidebarItems.push(this.#traverseAfterSideItem(childItem, item.key, item.side['link-to-last-note']));
+        sidebarItems.push(this.#traverseAfterSideItem(childItem, item.key, item.side.landIntoLastPage));
       });
       this.sidebar[item.key] = sidebarItems;
 
@@ -50,7 +50,7 @@ export class SiteMetadataService {
       const sidebarLeafLink = this.#sidebarLeafLinks[item.key];
       result.link = sidebarLeafLink;
 
-      if (item.side['groups_collapsed']) {
+      if (item.side.collapseOtherFirstLevels) {
         const childItemToExpandKey = childItems
           .map(x => x.key)
           .find(x => sidebarLeafLink.startsWith('/' + x + '.'));
@@ -73,7 +73,7 @@ export class SiteMetadataService {
     return result;
   }
 
-  #traverseAfterSideItem(item, navKey, linkToLastNote) {
+  #traverseAfterSideItem(item, navKey, landIntoLastPage) {
     const childItems = this.#getChildsOrdered(item);
     const result = { key: item.key, text: item.title };
 
@@ -83,15 +83,15 @@ export class SiteMetadataService {
       this.#leafItems.push({ ...item, link: result.link });
 
       // the fist note as entry point of the sidebar is the default behaviour
-      // to get the opposite behaviour (last note as entry point), set the link-to-last-note prop on side
-      if (linkToLastNote || !this.#sidebarLeafLinks[navKey])
+      // to get the opposite behaviour (last note as entry point), set the landIntoLastPage prop on side
+      if (landIntoLastPage || !this.#sidebarLeafLinks[navKey])
         this.#sidebarLeafLinks[navKey] = result.link;
 
     } else {
       result.items = [];
       childItems.forEach(childItem => {
         //const groupsCollapsedChild = false; //groups can be collapsed only on first level of sidebar
-        result.items.push(this.#traverseAfterSideItem(childItem, navKey, linkToLastNote));
+        result.items.push(this.#traverseAfterSideItem(childItem, navKey, landIntoLastPage));
       });
     }
 
@@ -104,7 +104,7 @@ export class SiteMetadataService {
         const regex = new RegExp(`^${father.key}\\.([^\\.]+)$`);
         return regex.test(item.key);
       })
-      .sort((a, b) => a.nav_order - b.nav_order);
+      .sort((a, b) => a.order - b.order);
   }
 
   #setHomeCards() {
