@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress';
-import { getItemsFromDendronNotes2 } from './dendron-utilities.mjs'
-import { SiteMetadataService } from './site-metadata-service.mjs'
+import { getItemsFromDendronNotes2 } from '../dendron-utilities.mjs'
+import { SiteMetadataService } from '../site-metadata-service.mjs'
 import markdownItWikilinksFn from "markdown-it-wikilinks";
-import mditCustomPluginFn from './mdit-custom-plugin.mjs';
+import mditCustomPluginFn from '../mdit-custom-plugin.mjs';
 
 const siteMetadata = new SiteMetadataService(getItemsFromDendronNotes2);
 
