@@ -59,7 +59,13 @@ export const it = defineConfig({
     returnToTopLabel: 'Torna all\'inizio',
     sidebarMenuLabel: 'Menu laterale',
     darkModeSwitchLabel: 'Tema Scuro',
-    lightModeSwitchTitle: 'Cambia in tema chiaro',
-    darkModeSwitchTitle: 'Cambia in tema scuro'
+    lightModeSwitchTitle: 'Cambia in tema chiaro (a tuo rischio)',
+    darkModeSwitchTitle: 'Cambia in tema scuro (per il tuo bene)',
+    notFound: {
+      title: 'Oops!',
+      quote: 'Sembra che tu abbia trovato un buco nero nel nostro sito. Torna indietro prima che sia troppo tardi!',
+      linkLabel: 'torna indietro',
+      linkText: 'Torna indietro',
+    }
   }
 });

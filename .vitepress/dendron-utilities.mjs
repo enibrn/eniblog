@@ -16,6 +16,7 @@ export function getItemsFromDendronNoteFiles() {
 
       return {
         //copied props from dendron structure
+        guid: data.id,
         key: key,
         title: data.title,
         created: data.created,
@@ -29,6 +30,7 @@ export function getItemsFromDendronNoteFiles() {
         level: key.split('.').length,
         createdDate: new Date(data.created),
         updatedDate: new Date(data.updated),
+        relativeFilePath: `notes/${key}.md`
       };
     });
 }

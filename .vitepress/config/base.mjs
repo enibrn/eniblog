@@ -38,5 +38,6 @@ export const base = defineConfig({
     if (pageData.frontmatter['layout'] !== 'home') return;
     //dinamically add cards to homepage by editing its frontmatter
     pageData.frontmatter['features'] = siteMetadata.homeCards;
-  }
+  },
+  srcExclude: siteMetadata.srcExclude
 });

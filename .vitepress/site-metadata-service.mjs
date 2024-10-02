@@ -8,6 +8,7 @@ export class SiteMetadataService {
   linksVocabulary = {}; //needed to translate wikilinks labels, from keys to titles
   homeCards = [];
   itemsLoggedTest = [];
+  srcExclude = [];
 
   // private props
   #items = []; //item is the new view of the dendron note (a subset of its props and new calculated props)
@@ -70,6 +71,8 @@ export class SiteMetadataService {
       });
     }
 
+    this.srcExclude.push(item.relativeFilePath);
+
     return result;
   }
 
@@ -93,6 +96,7 @@ export class SiteMetadataService {
         //const groupsCollapsedChild = false; //groups can be collapsed only on first level of sidebar
         result.items.push(this.#traverseAfterSideItem(childItem, navKey, landIntoLastPage));
       });
+      this.srcExclude.push(item.relativeFilePath);
     }
 
     return result;
