@@ -2,7 +2,7 @@
 id: txy5p82hyf49na4d17yxnw9
 title: Kolsch
 desc: ''
-updated: 1727903554670
+updated: 1727904689803
 created: 1688744651996
 nav_order: 3
 ---
@@ -27,6 +27,6 @@ Fermentis safale K-97
 
 1047 -> 1011
 
-![img1](./assets/images/kolsch.jpg)
+![img1](./assets/images/kolsch_fix.jpg)
 
-![img2](./assets/images/kolsh2.jpg)
+![img2](./assets/images/kolsch2_fix.jpg)
