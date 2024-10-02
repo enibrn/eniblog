@@ -1,13 +1,10 @@
-import { getItemsFromDendronNotes, getItemsFromDendronNotes2 } from '../../dendron-utilities.mjs'
+import { getItemsFromDendronNoteFiles } from '../../dendron-utilities.mjs'
 import { SiteMetadataService } from '../../site-metadata-service.mjs'
 import fs from 'fs';
 
-// const siteMetadata = new SiteMetadataService(getItemsFromDendronNotes, true);
-// fs.writeFileSync('.vitepress/test/manual/temp/printed-data.json', JSON.stringify(siteMetadata, null, 2));
-
-const siteMetadata2 = new SiteMetadataService(getItemsFromDendronNotes2, true);
+const siteMetadata = new SiteMetadataService(getItemsFromDendronNoteFiles, true);
 const ts = getFormattedTimestamp();
-fs.writeFileSync(`.vitepress/test/manual/temp/printed-data-${ts}.json`, JSON.stringify(siteMetadata2, null, 2));
+fs.writeFileSync(`.vitepress/test/manual/temp/printed-data-${ts}.json`, JSON.stringify(siteMetadata, null, 2));
 
 function getFormattedTimestamp() {
   const date = new Date();
