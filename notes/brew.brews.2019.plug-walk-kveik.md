@@ -2,7 +2,7 @@
 id: 5gpx4tq1stpgdkunkp7s9j5
 title: Plug Walk Kveik
 desc: ''
-updated: 1726910027850
+updated: 1727903694974
 created: 1688744651994
 nav_order: 3
 vp:
@@ -12,7 +12,7 @@ Banco di prova per l'hornidal kveik, stessa base e quasi stessa luppolatura dell
 
 ## Ricetta
 
-Per la ricetta rimando alla [plug walk](plug-walk) perché è uguale, con a differenza appunto del lievito.
+Per la ricetta rimando alla [[brew.brews.2019.plug-walk]] perché è uguale, con a differenza appunto del lievito.
 Ed è tutta scalata nei litri, da 15 lt in fermentatore a circa 9.
 In realtà cambiano quindi anche un po' i grammi litro delle gettate di luppolo a 5 minuti e in dh, di entrambe 50 grammi quindi 5,55 g/l contro i 6,66 g/l della precedente. E il luppolo amaricante non è mittelfruh ma comet, in quantità ovviamente ridimensionate per arrivare agli stessi IBU.
 

@@ -2,7 +2,7 @@
 id: 6shwz4m3duey7c2lfjniem9
 title: Redneck
 desc: ''
-updated: 1726692175627
+updated: 1727903716309
 created: 1688744651994
 nav_order: 5
 vp:
@@ -36,6 +36,6 @@ Potrebbe anche essere stata la non ideale gestione del lievito, specie essendo u
 L'aspetto è velato, forse per la segale (chill haze?) e la schiuma è evanescente.  
 Ha tutto sommato un buon aroma fruttato tipico del ceppo di lievito ma pecca di troppa dolcezza residua (aveva attenuato abbastanza poco, da 1048 a 1016).
 
-Durante gli ultimi assaggi è leggermente migliorata, in particolare è emersa quella nota speziata che attribuirei alla segale e che in passato ho sempre scambiato per esteri del lievito belga (come scrissi [qua](/rog)).
+Durante gli ultimi assaggi è leggermente migliorata, in particolare è emersa quella nota speziata che attribuirei alla segale e che in passato ho sempre scambiato per esteri del lievito belga (come scrissi [[brew.brews.2018.rog]]).
 
 ![rog](./assets/images/redneck.jpg)

@@ -21,8 +21,6 @@ export const base = defineConfig({
     }
   },
   rewrites: {
-    //TODO Redirects to the first leaf path when path is not leaf
-    //TODO Redirects for hard links
     'notes/:note': ':note'
   },
   markdown: {
