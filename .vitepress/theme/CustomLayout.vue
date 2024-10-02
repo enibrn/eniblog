@@ -26,25 +26,22 @@ const { go } = useRouter();
 
 const { Layout } = DefaultTheme;
 
-const redirects = Object.entries({
+const redirects = {
   '/eniblog/123': '/eniblog/brew.brews.2016.blue-marble'
-});
+};
 
 watch(
   () => page.value.isNotFound,
   (isNotFound) => {
-    console.log(isNotFound, inBrowser);
     if (!isNotFound || !inBrowser)
       return;
-
-    console.log(window.location.pathname);
-    const redirect = redirects.find(([from]) => window.location.pathname.startsWith(from));
+    const redirect = redirects[window.location.pathname];
     console.log(redirect);
 
     if (!redirect)
       return;
 
-    go(redirect[1] + window.location.pathname.slice(redirect[0].length))
+    go(redirect);
   },
   { immediate: true }
 );
