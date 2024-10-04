@@ -9,6 +9,7 @@ export class SiteMetadataService {
   homeCards = [];
   itemsLoggedTest = [];
   srcExclude = [];
+  redirects = {};
 
   // private props
   #items = []; //item is the new view of the dendron note (a subset of its props and new calculated props)
@@ -90,12 +91,14 @@ export class SiteMetadataService {
       if (landIntoLastPage || !this.#sidebarLeafLinks[navKey])
         this.#sidebarLeafLinks[navKey] = result.link;
 
+      this.redirects[item.guid] = `/eniblog/${item.key}`;
     } else {
       result.items = [];
       childItems.forEach(childItem => {
         //const groupsCollapsedChild = false; //groups can be collapsed only on first level of sidebar
         result.items.push(this.#traverseAfterSideItem(childItem, navKey, landIntoLastPage));
       });
+
       this.srcExclude.push(item.relativeFilePath);
     }
 

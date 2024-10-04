@@ -37,7 +37,7 @@ const props = defineProps({
 
 //discussions are separated between the published and development versions
 const giscusPageId = computed(() => {
-  //TODO better to use an env variable
+  //TODO better to use an env variable OR see inBrowser in CustomLayout.vue
   const isLocal = typeof window !== 'undefined' && window.location.hostname === 'localhost';
   const suffix = isLocal ? '_dev' : '';
   return props.pageId + suffix;
