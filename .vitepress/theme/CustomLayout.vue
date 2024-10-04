@@ -29,7 +29,7 @@ import Comments from './components/Comments.vue'
 import { inBrowser, useData, useRouter } from 'vitepress'
 import { watch, ref, computed } from 'vue'
 import CopyButton from 'vitepress-copy-helper';
-import redirects from '../data/redirects-data.json'
+import redirects from '../redirects-data.json'
 
 const { page, frontmatter } = useData();
 

@@ -8,7 +8,7 @@ import fs from 'fs';
 const siteMetadata = new SiteMetadataService(getItemsFromDendronNoteFiles);
 
 //need to save it locally to be imported in CustomLayout.vue (maybe there is a better way to do it)
-fs.writeFileSync('.vitepress/data/redirects-data.json', JSON.stringify(siteMetadata.redirects), 'utf-8');
+fs.writeFileSync('.vitepress/redirects-data.json', JSON.stringify(siteMetadata.redirects), 'utf-8');
 
 export const base = defineConfig({
   title: 'eniblog',
