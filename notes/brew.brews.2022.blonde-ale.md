@@ -1,8 +1,8 @@
 ---
 id: jmyvb70rdo6sjzl83gomgsc
-title: Blonde Ale
+title: Blonde Ale 22
 desc: ''
-updated: 1727035894145
+updated: 1728126323786
 created: 1727013686872
 nav_order: 2
 ---

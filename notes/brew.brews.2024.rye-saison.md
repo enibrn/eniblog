@@ -1,11 +1,13 @@
 ---
 id: 3vbpx6yvjtllgwvyqh8wueh
-title: Rye Saison
+title: Rye Saison 24
 desc: ''
-updated: 1727020899546
+updated: 1728130393000
 created: 1727019122979
 nav_order: 2
 ---
+Saison con la segale brassata il 25 maggio 2024
+
 ## Volume
 
 | Descrizione            | Valore  |
@@ -69,3 +71,9 @@ Belle Saison Beer Yeast
 
 ## Considerazioni
 
+Birra molto secca e dominata dalla forte speziatura della segale, un po' astringente.
+Migliorabile.
+Note di ossidazione probabilmente dovute al luppolo, che potrebbe giovare dall'uso della contropressione.
+Schiuma notevole e qualche difficoltà a versarla, meglio andare più leggeri col priming in futuro.
+
+![rs](./assets/images/2024-10-05-13-44-39.png)

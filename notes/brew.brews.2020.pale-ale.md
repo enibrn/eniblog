@@ -1,8 +1,8 @@
 ---
 id: g7dxu3ttjgfwu67smb5mjtx
-title: Pale Ale
+title: Pale Ale 20
 desc: ''
-updated: 1726910010106
+updated: 1728126323797
 created: 1688744651996
 nav_order: 2
 ---

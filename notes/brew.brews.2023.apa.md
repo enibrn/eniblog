@@ -1,10 +1,11 @@
 ---
 id: eato497crf3wieml64a2tbo
-title: Apa
+title: Apa 23
 desc: ''
-updated: 1727035907059
+updated: 1728130468950
 created: 1727020322409
 ---
+American pale ale con simcoe
 
 ## Malti e Fermentabili
 
@@ -52,5 +53,9 @@ created: 1727020322409
 | IBU           | 34.3   |
 | BU/GU         | 0.64   |
 | EBC           | 12     |
+
+## Considerazioni
+
+Buona birra di cui non conservo foto quindi ci penserà la IA...
 
 ![pa](./assets/images/2024-09-22-18-00-48.png)

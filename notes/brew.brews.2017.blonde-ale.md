@@ -1,8 +1,8 @@
 ---
 id: aqruwu9j3it4evgb0v6hjns
-title: Blonde Ale
+title: Blonde Ale 17
 desc: ''
-updated: 1726600389450
+updated: 1728126323803
 created: 1688744651989
 nav_order: 8
 vp:

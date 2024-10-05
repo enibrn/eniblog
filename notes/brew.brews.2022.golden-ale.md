@@ -1,8 +1,8 @@
 ---
 id: tswwozfl1skfms552vqi04v
-title: Golden Ale
+title: Golden Ale 22
 desc: ''
-updated: 1727014395974
+updated: 1728126323781
 created: 1726870165929
 nav_order: 5
 ---

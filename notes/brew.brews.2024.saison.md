@@ -1,8 +1,8 @@
 ---
 id: cnufeu0guiq8arcy4drcxw7
-title: Saison
+title: Saison 24
 desc: ''
-updated: 1727019945346
+updated: 1728128615062
 created: 1727019101928
 nav_order: 1
 ---
@@ -67,3 +67,6 @@ Lallemand Belle Saison
 
 ## Considerazioni
 
+Una buona saison secca e beverina, senza difetti di fermentazione. Il luppolo gioca nelle retrovie, senza impattare molto sull'aroma.
+
+![saison](./assets/images/2024-10-05-13-43-29.png)

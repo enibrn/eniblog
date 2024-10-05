@@ -1,8 +1,8 @@
 ---
 id: 6k9ufrfcd4ulxeoujmh9b2y
-title: Blanche
+title: Blanche 20
 desc: ''
-updated: 1726910013630
+updated: 1728126323795
 created: 1688744651997
 nav_order: 6
 ---
