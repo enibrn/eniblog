@@ -116,13 +116,13 @@ export class SiteMetadataService {
 
   #setHomeCards() {
     const lastCreatedItems = this.#leafItems
-      .sort((a, b) => b.created - a.created)
+      .sort((a, b) => b.createdTimestamp - a.createdTimestamp)
       .slice(0, 4);
     const lastCreatedCards = this.#getHomeCards(lastCreatedItems, true);
 
     const lastUpdatedItems = this.#leafItems
       .filter(x => !lastCreatedItems.some(y => y.key === x.key)) //exclude newly created items
-      .sort((a, b) => b.updated - a.updated)
+      .sort((a, b) => b.updatedTimestamp - a.updatedTimestamp)
       .slice(0, 4);
     const lastUpdatedCards = this.#getHomeCards(lastUpdatedItems, false);
     this.homeCards = lastCreatedCards.concat(lastUpdatedCards);

@@ -15,16 +15,14 @@ export function getItemsFromDendronNoteFiles() {
       const key = path.parse(file).name;
 
       return {
-        //copied props from dendron structure
+        //from dendron structure
         guid: data.id,
         key: key,
         title: data.title,
-        created: data.created,
-        updated: data.updated,
-        //custom props for vitepress
+        createdTimestamp: data.created,
+        updatedTimestamp: data.updated,
+        //custom for vitepress
         side: data.vp?.side ?? false,
-        linkToLastNote: data.vp?.linkToLastNote ?? false, //not tested
-        //ogdateString: data.vp?.ogdate, //not needed for metadata
         //calculated props
         order: data.nav_order ?? 999,
         level: key.split('.').length,

@@ -22,17 +22,15 @@
 
 <script setup>
 import DefaultTheme from 'vitepress/theme';
-import Badges from './components/Badges.vue'
-import Comments from './components/Comments.vue'
-import { inBrowser, useData, useRouter } from 'vitepress'
-import { watch } from 'vue'
+import Badges from './components/Badges.vue';
+import Comments from './components/Comments.vue';
+import { inBrowser, useData, useRouter } from 'vitepress';
+import { watch } from 'vue';
 import CopyButton from './components/CopyButton.vue';
-import redirects from '../redirects-data.json'
+import redirects from '../redirects-data.json';
 
 const { page } = useData();
-
 const { go, route } = useRouter();
-
 const { Layout } = DefaultTheme;
 
 watch(
@@ -49,16 +47,14 @@ watch(
 );
 
 function getRedirectFromRoute(path) {
-  if (!path) return;
+  if (!path) return null;
 
+  //getting page guid from url
   const regex = /\/eniblog\/(.*?)\.html/;
   const match = path.match(regex);
   const guid = match ? match[1] : null;
+
   return redirects[guid];
 }
 
 </script>
-
-<style scoped>
-
-</style>
