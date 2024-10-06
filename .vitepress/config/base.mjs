@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-import { getItemsFromDendronNoteFiles } from '../dendron-utilities.mjs';
+import { getItemsFromDendronNoteFiles, notesPath } from '../dendron-utilities.mjs';
 import { SiteMetadataService } from '../site-metadata-service.mjs';
 import markdownItWikilinksFn from 'markdown-it-wikilinks';
 import mditCustomPluginFn from '../mdit-custom-plugin.mjs';
@@ -11,6 +11,9 @@ fs.writeFileSync(
   '.vitepress/redirects-data.json',
   JSON.stringify(siteMetadata.redirects),
   'utf-8');
+
+const rewrites = {};
+rewrites[notesPath + '/:note'] = ':note';
 
 export const base = defineConfig({
   title: 'eniblog',
@@ -26,9 +29,7 @@ export const base = defineConfig({
       provider: 'local'
     }
   },
-  rewrites: {
-    'notes/:note': ':note'
-  },
+  rewrites: rewrites,
   markdown: {
     config: (md) => {
       const options = {

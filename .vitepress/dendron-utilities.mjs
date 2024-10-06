@@ -2,8 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
+export const notesPath = 'notes';
+
 export function getItemsFromDendronNoteFiles() {
-  const notesPath = 'notes';
   return fs
     .readdirSync(notesPath)
     .filter(file => path.extname(file) === '.md' && file !== 'root.md')
