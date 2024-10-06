@@ -18,6 +18,7 @@ export class SiteMetadataService {
 
   constructor(getItemsFn, isTest) {
     this.#items = getItemsFn();
+
     if (isTest) {
       this.itemsLoggedTest = this.#items;
     }
@@ -132,7 +133,7 @@ export class SiteMetadataService {
     const results = [];
 
     lastItems.forEach(item => {
-      const fcontent = fs.readFileSync(`notes/${item.key}.md`, 'utf-8');
+      const fcontent = fs.readFileSync(item.relativeFilePath, 'utf-8');
 
       const result = {
         title: item.title,

@@ -3,13 +3,12 @@ import path from 'path';
 import matter from 'gray-matter';
 
 export function getItemsFromDendronNoteFiles() {
-  const directory = 'notes';
-
+  const notesPath = 'notes';
   return fs
-    .readdirSync(directory)
+    .readdirSync(notesPath)
     .filter(file => path.extname(file) === '.md' && file !== 'root.md')
     .map(file => {
-      const filePath = path.join(directory, file);
+      const filePath = path.join(notesPath, file);
       const fileContent = fs.readFileSync(filePath, 'utf8');
       const { data } = matter(fileContent);
       const key = path.parse(file).name;
@@ -28,7 +27,7 @@ export function getItemsFromDendronNoteFiles() {
         level: key.split('.').length,
         createdDate: new Date(data.created),
         updatedDate: new Date(data.updated),
-        relativeFilePath: `notes/${key}.md`
+        relativeFilePath: path.join(notesPath, `${key}.md`)
       };
     });
 }
